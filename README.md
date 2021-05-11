@@ -4,7 +4,7 @@
 
 🔨 built with gatsby, styled components and a dash of scss
 
-#### goals
+<!-- #### goals
 - [x] react components
 - [x] single page app
 - [x] responsive
@@ -20,4 +20,4 @@
 - [ ] dark mode
 - [ ] various themes
 - [ ] easter eggs ?? 
-- [ ] projects !!
+- [ ] projects !! --> 
