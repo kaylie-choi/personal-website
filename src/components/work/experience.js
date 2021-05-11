@@ -64,7 +64,6 @@ export default function Experience() {
         <ExperienceWrapper>
         <VerticalTimeline layout={ '1-column-left' }
         className="vertical-timeline vertical-timeline-custom-line"
-        animate={ false }
         >
             <VerticalTimelineElement icon={<LogoIcon src={pixleeLogo} alt='pixlee logo'/>}>
                 <ExperiencePosition>Full Stack SWE</ExperiencePosition>
