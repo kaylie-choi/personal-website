@@ -1,0 +1,68 @@
+import React from 'react'
+import { Link } from "gatsby"
+import styled from 'styled-components'
+import IntroSocials from './intro-socials'
+import tw from "twin.macro"
+
+
+const IntroTextContainer = styled.div`
+    ${tw`flex justify-center sm:justify-start`}
+`
+const IntroTextWrapper = styled.div`
+    margin-left: 0;
+    width: 300px;
+    ${tw`md:ml-6`}
+`
+const IntroName = styled.p`
+    font-size: 44px;
+    font-weight: 700;
+    margin: 15px 0;
+    width: 9.5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    
+    `
+    // border-right: 2px solid #97B08D;
+    // animation: typing 0.85s steps(12, end), blink .5s step-end infinite alternate;
+    // @keyframes typing {
+    //     from { width: 0 }
+    // }
+    // @keyframes blink {
+    //     50% {
+    //         border-color: transparent
+    //     }
+    // }
+const IntroHello = styled.p`
+`
+const IntroLink = styled.a`
+    display: inline;
+    color: #97B08D;
+    text-decoration: underline;
+    font-weight: 600;
+`
+
+export default function IntroText() {
+    return (
+        <IntroTextContainer>
+            <IntroTextWrapper>
+                <IntroName>Kaylie Choi</IntroName>
+                <IntroHello>
+                    Hi, I'm Kaylie! I'm a developer and engineering student
+                    currently studying at the <Link to='https://uwaterloo.ca/'>
+                        <IntroLink>University of Waterloo</IntroLink>
+                    </Link>.
+                    <br/>
+                    <br/>
+                    Previously, I've worked at <Link to='https://www.pixlee.com/home' target='_blank'>
+                        <IntroLink>Pixlee&nbsp;TurnTo</IntroLink>
+                    </Link>, <Link to='https://www.sunlife.ca/en/careers/digital-jobs/' target='_blank'>
+                        <IntroLink>Sun&nbsp;Life&nbsp;Financial</IntroLink>
+                    </Link>, and <Link to='https://cibccm.com/en/' target='_blank'>
+                        <IntroLink>CIBC</IntroLink>
+                    </Link>.
+                </IntroHello>
+                <IntroSocials/>
+            </IntroTextWrapper>
+        </IntroTextContainer>
+    )
+}

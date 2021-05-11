@@ -1,0 +1,40 @@
+$primary-color: #97B08D;
+$secondary-color: #D3E9CC;
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: rgba(204, 222, 204, 0.4);
+}
+
+/* react-vertical-timeline-component custom styling */
+.vertical-timeline.vertical-timeline-custom-line {
+    padding-top: 3rem;
+    padding-bottom: 0;
+
+    &::before {
+        background: #97B08D;
+        margin-top: 3rem;
+        height: 97%;
+    }
+}
+
+.vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element-icon {
+    background-color: white;
+    box-shadow: 0 0 0 3px $primary-color;
+    z-index: 10;
+}
+
+.vertical-timeline-element {
+    .vertical-timeline-element-content {
+        background: none;
+        box-shadow: none;
+        padding: 0 1rem;
+
+        .vertical-timeline-element-content-arrow {
+            display: none;
+        }
+    }
+}
