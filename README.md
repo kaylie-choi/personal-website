@@ -12,6 +12,7 @@
 - [x] work timeline
 - [x] host on netlify
 - [ ] new domain
+- [ ] google analytics
 - [ ] lazy load assets
 - [ ] on scroll animations
 - [ ] looping typewriter
