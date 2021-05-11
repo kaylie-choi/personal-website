@@ -9,7 +9,7 @@ import {
   } from "react-icons/fa";
 
 
-const IntroSocialsItem = styled.a`
+const IntroSocialsItem = styled.span`
     display: inline-block;
     margin-right: 10px; 
     padding-top: 1.75rem;   
