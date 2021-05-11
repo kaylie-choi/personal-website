@@ -1,1 +1,2 @@
-## long overdue new personal website :)
+## personal website :)
+a long overdue redesign and redevelopment of my personal website
