@@ -14,9 +14,6 @@ const IntroSocialsItem = styled.span`
     margin-right: 10px; 
     padding-top: 1.75rem;   
     font-size: 18px;
-    a {
-        color: #212121;
-    }
     :hover {
         filter: drop-shadow(2px 2px 2px #97B08D);
     }

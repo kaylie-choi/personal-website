@@ -8,7 +8,7 @@ const NavItem = styled.li`
     display: inline-block;
     margin-left: 1rem;
     text-decoration: none;
-    border-bottom: 5px solid #D3E9CC;
+    border-bottom: 5px solid #97B08D;
     line-height: 16px;
     :hover::before, :active::before{
         transform: scaleX(1);
@@ -20,7 +20,7 @@ const NavItem = styled.li`
         content: " ";
         position: absolute;
         top: 0; right: 0; bottom: 0; left: 0;
-        background: #D3E9CC;
+        background: #97B08D;
         z-index: -1;
         transition: transform .3s ease;
     }

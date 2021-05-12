@@ -10,10 +10,8 @@ import SEO from './seo'
 const ContentWrapper = styled.div`
     scroll-behavior: smooth;
     padding: 1rem 15rem;
-    background-color: #FCFCFC;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
-    color: black;
     @media screen and (max-width: 1080px) {
         padding: 1rem 10rem;
     }

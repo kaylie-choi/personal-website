@@ -1,11 +1,24 @@
-$primary-color: #97B08D;
-$secondary-color: #D3E9CC;
+// $primary-color: #97B08D;
+// $secondary-color: #D3E9CC;
 
 html {
     scroll-behavior: smooth;
 }
 
-::selection {
+body {
+    --bg: #FCFCFC;
+    color: black;
+    background-color: var(--bg);
+}
+
+body.dark {
+    -webkit-font-smoothing: antialiased;
+    --bg: #212121;
+    color: white;
+
+}
+
+body *::selection {
     background: rgba(204, 222, 204, 0.4);
 }
 
@@ -23,7 +36,7 @@ html {
 
 .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element-icon {
     background-color: white;
-    box-shadow: 0 0 0 3px $primary-color;
+    box-shadow: 0 0 0 3px #97B08D;
     z-index: 10;
 }
 
@@ -35,6 +48,67 @@ html {
 
         .vertical-timeline-element-content-arrow {
             display: none;
+        }
+    }
+}
+
+/* dark mode toggle */
+.dark-button {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+
+    &:before,
+    &:after {
+        box-sizing: border-box;
+    }
+
+    label {
+        position: relative;
+        display: block;
+        width: 45px;
+        height: 25px;
+        border-radius: 100px;
+        background-color: #404040;
+        overflow: hidden;
+        cursor: pointer;
+
+        &:before,
+        &:after {
+            display: block;
+            position: absolute;
+            content: "";
+            width: 19px;
+            height: 19px;
+            border-radius: 50%;
+            top: 3px;
+            left: 3px;
+            transition: 0.4s ease;
+        }
+        &:before {
+            background-color: #97B08D;
+        }
+        &:after {
+            background-color: #404040;
+            left: -58px;
+            transform: scale(0.00001);
+        }
+    }
+
+    input[type="checkbox"] {
+        display: none;
+
+        &:checked+label {
+            &:before {
+                background-color: #97B08D;
+                transform: translateX(20px);
+            }
+
+            &:after {
+                transform: translateX(75px) scale(1);
+            }
         }
     }
 }

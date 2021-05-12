@@ -1,14 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from "gatsby"
-import { Link } from "gatsby"
+
+const FooterContainer = styled.div`
+    background-color: rgba(99, 99, 99, 0.05);
+    padding: 1.5rem 0;
+`
 
 const FooterText = styled.p`
-  padding: 1rem 0 2rem;
   font-size: 14px;
   text-align: center;
-  
-  a {
+  span {
     cursor: pointer;
   }
 `
@@ -34,16 +36,16 @@ export default function Footer() {
     // window.onload = console.log('hi there! thanks for checking out my site :)')
 
     return (
-      <div>
+      <FooterContainer>
         <FooterText>
-          <a onClick={goodLuck} role="img" aria-label="leaf">
+          <span onClick={goodLuck} role="img" aria-label="leaf">
             🍀
-          </a>
+          </span>
 
           &nbsp;&nbsp;designed & built by&nbsp;
           {data.site.siteMetadata.author} &copy;
           
         </FooterText>
-      </div>
+      </FooterContainer>
     )
   }
