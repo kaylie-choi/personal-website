@@ -28,45 +28,45 @@ const Img = styled.img`
 `
 
 class ProfilePicture extends Component {
-    pictures = [profileQE, profileForet, profileAstro, profileQueen, profileAllen];
-    constructor(props) {
-      super(props);
-      let newNum = Math.floor(Math.random() * 5);
-      this.state = {
-        pictureIndex: newNum,
-      };
+  pictures = [profileQE, profileForet, profileAstro, profileQueen, profileAllen];
+  state = {
+    pictureIndex: null,
+  };
+  componentDidMount() {
+    this.setState({
+      pictureIndex: Math.floor(Math.random() * this.pictures.length),
+    });
+  }
+  handleRightClick() {
+    if (this.state.pictureIndex === this.pictures.length - 1) {
+      this.setState({ pictureIndex: 0 });
+    } else {
+      this.setState(state => ({
+        pictureIndex: state.pictureIndex + 1
+      }));
     }
-  
-    handleRightClick() {
-      if (this.state.pictureIndex === this.pictures.length - 1) {
-        this.setState({pictureIndex: 0});
-      } else {
-        this.setState(state => ({
-          pictureIndex: state.pictureIndex + 1
-        }));
-      }
+  }
+  handleLeftClick() {
+    if (this.state.pictureIndex === 0) {
+      this.setState({ pictureIndex: this.pictures.length - 1 });
+    } else {
+      this.setState(state => ({
+        pictureIndex: state.pictureIndex - 1
+      }));
     }
-  
-    handleLeftClick() {
-      if (this.state.pictureIndex === 0) {
-        this.setState({pictureIndex: this.pictures.length - 1});
-      } else {
-        this.setState(state => ({
-          pictureIndex: state.pictureIndex - 1
-        }));
-      }
-    }
-
-    render () {
-        return (
-          <IntroPicContainer>
-            <Img 
-                src={this.pictures[this.state.pictureIndex]}
-                alt="profile picture"
-            />
-          </IntroPicContainer>
-        )
-      }
+  }
+  render() {
+    return (
+      <IntroPicContainer>
+        {this.state.pictureIndex !== null &&
+          <Img
+            src={this.pictures[this.state.pictureIndex]}
+            alt="profile picture"
+          />
+        }
+      </IntroPicContainer>
+    )
+  }
 }
 
 export default ProfilePicture
