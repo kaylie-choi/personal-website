@@ -4,6 +4,7 @@ import styled, {keyframes} from 'styled-components';
 import {generateId, random, range, sample} from './utils';
 import {useIsOnscreen, usePrefersReducedMotion, useRandomInterval} from './hooks';
 
+// adapted from https://github.com/chadmorrow/sparkles
 
 const UnstyledButton = styled.button`
     display: ${props => props.display || 'block'};

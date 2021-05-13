@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { FaChevronUp } from 'react-icons/fa'
 import styled from 'styled-components'
 
+// adapted from https://juliapottinger.com/react-gatsby-scroll-to-top/
+
 const ScrollButton = styled.button`
     position: fixed;
     right: 3rem;
