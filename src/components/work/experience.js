@@ -50,7 +50,6 @@ const ExperienceDesc = styled.ul`
     margin-left: 1rem;
     font-size: 14px;
     a {
-        color: #97B08D;
         font-weight: 600;
     }
     @media screen and (max-width: 640px) {
