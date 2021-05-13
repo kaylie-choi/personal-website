@@ -2,9 +2,6 @@ import React from 'react'
 import NavSection from './nav-section'
 import styled from 'styled-components'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
-import { FaRegMoon } from 'react-icons/fa'
-import { FaRegSun } from 'react-icons/fa'
-
 
 const NavContainer = styled.div`
     background-color: rgba(99, 99, 99, 0.1);
@@ -36,9 +33,9 @@ export default function NavMenu() {
                 <ThemeToggler>
                     {({ theme, toggleTheme }) => (
                         <span
-                            className={theme === 'dark' 
-                            ? 'dark-toggle sun'
-                            : 'dark-toggle moon'
+                            className={theme === 'light' 
+                            ? 'dark-toggle moon'
+                            : 'dark-toggle sun'
                             }
                             onClick={() => 
                             theme === 'dark' ? toggleTheme('light') : toggleTheme('dark')}
