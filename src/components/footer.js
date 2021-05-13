@@ -36,7 +36,12 @@ export default function Footer() {
     return (
       <FooterContainer>
         <FooterText>
-          <span onClick={goodLuck} role="img" aria-label="leaf">
+          <span 
+            onClick={goodLuck}
+            onKeyPress={goodLuck}
+            role="img" 
+            aria-label="4 leaf clover"
+          >
             🍀
           </span>
 

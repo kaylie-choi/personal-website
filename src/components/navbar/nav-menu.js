@@ -33,8 +33,12 @@ export default function NavMenu() {
                 <ThemeToggler>
                     {({ theme, toggleTheme }) => (
                         <span
+                            role='button'
+                            aria-label="Toggle dark mode"
+                            tabindex="0"
                             className={theme === 'light' ? 'dark-toggle moon' : 'dark-toggle sun'}
                             onClick={() => theme === 'light' ? toggleTheme('dark') : toggleTheme('light')}
+                            onKeyPress={() => theme === 'light' ? toggleTheme('dark') : toggleTheme('light')}
                         />
                     )}
                 </ThemeToggler>
