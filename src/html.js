@@ -11,6 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+        <meta name="google-site-verification" content="ds0M4LrwtEHwotqFrcRCSHYXla1PPP5OAmKunT6CoAo" />
         <script src="https://kit.fontawesome.com/61240bb50e.js" crossOrigin="anonymous"></script>
 
         {props.headComponents}
