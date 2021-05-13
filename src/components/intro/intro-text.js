@@ -21,17 +21,8 @@ const IntroName = styled.p`
     white-space: nowrap;
     overflow: hidden;
     
-    `
-    // border-right: 2px solid #97B08D;
-    // animation: typing 0.85s steps(12, end), blink .5s step-end infinite alternate;
-    // @keyframes typing {
-    //     from { width: 0 }
-    // }
-    // @keyframes blink {
-    //     50% {
-    //         border-color: transparent
-    //     }
-    // }
+`
+
 const IntroHello = styled.p`
 `
 const IntroLink = styled.a`

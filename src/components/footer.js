@@ -33,8 +33,6 @@ export default function Footer() {
       console.log('your wish has been granted.');
     }
     
-    // window.onload = console.log('hi there! thanks for checking out my site :)')
-
     return (
       <FooterContainer>
         <FooterText>

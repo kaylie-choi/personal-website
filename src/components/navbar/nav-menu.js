@@ -2,6 +2,9 @@ import React from 'react'
 import NavSection from './nav-section'
 import styled from 'styled-components'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import { FaRegMoon } from 'react-icons/fa'
+import { FaRegSun } from 'react-icons/fa'
+
 
 const NavContainer = styled.div`
     background-color: rgba(99, 99, 99, 0.1);
@@ -9,8 +12,11 @@ const NavContainer = styled.div`
     padding: 1rem 3rem;
     position: fixed;
     z-index: 1;
+    @media screen and (max-width: 640px) {
+        padding: 1rem 2rem;
+    } 
 `
-const NavWrapper = styled.div`
+    const NavWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -18,6 +24,9 @@ const NavWrapper = styled.div`
     a {
         text-decoration: none;
     }
+    @media screen and (max-width: 640px) {
+        justify-content: center;
+    }  
 `
 
 export default function NavMenu() {    
@@ -26,20 +35,17 @@ export default function NavMenu() {
             <NavWrapper>
                 <ThemeToggler>
                     {({ theme, toggleTheme }) => (
-                    <div className="dark-button">
-                        <input
-                            type="checkbox"
-                            id="toggle"
-                            onChange={e =>
-                                toggleTheme(e.target.checked ? "dark" : "light")
+                        <span
+                            className={theme === 'dark' 
+                            ? 'dark-toggle sun'
+                            : 'dark-toggle moon'
                             }
-                            checked={theme === "dark"}
+                            onClick={() => 
+                            theme === 'dark' ? toggleTheme('light') : toggleTheme('dark')}
                         />
-                        <label for="toggle"></label>
-                    </div>
+                        
                     )}
-                </ThemeToggler>    
-
+                </ThemeToggler>
                 <NavSection to='/' text='home' />
                 <NavSection to='#about' text='about'/>
                 <NavSection to='#work' text='work' />
