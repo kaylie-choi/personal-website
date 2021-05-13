@@ -1,11 +1,11 @@
 ## personal website :)
 
-🌱 a much needed and long overdue redesign/redevelopment of my personal website
+🌱 a much needed, long overdue redesign/redevelopment of my personal website
 
 🔨 built with gatsby, styled components and a dash of scss
 
-#### goals
-- [x] react components
+### my [accountability] roadmap
+- [x] components
 - [x] single page app
 - [x] responsive
 - [x] minimal design
@@ -15,10 +15,11 @@
 - [x] scroll to top button
 - [x] custom domain + ssl certif
 - [x] google analytics
-- [ ] lazy load assets
 - [ ] on scroll animations
-- [ ] looping typewriter
+- [ ] skills
+- [ ] projects !! 
+- [ ] preloader ??
 - [ ] resume redesign
 - [ ] various themes
-- [ ] easter eggs ?? 
-- [ ] projects !! 
+- [ ] easter eggs 😎
+<!-- - [ ] looping typewriter -->
