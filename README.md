@@ -4,7 +4,7 @@
 
 🔨 built with gatsby, styled components and a dash of scss
 
-<!-- #### goals
+#### goals
 - [x] react components
 - [x] single page app
 - [x] responsive
@@ -13,12 +13,12 @@
 - [x] host on netlify
 - [x] dark mode !! 
 - [x] scroll to top button
-- [ ] new domain
-- [ ] google analytics
+- [x] custom domain + ssl certif
+- [x] google analytics
 - [ ] lazy load assets
 - [ ] on scroll animations
 - [ ] looping typewriter
 - [ ] resume redesign
 - [ ] various themes
 - [ ] easter eggs ?? 
-- [ ] projects !! --> 
+- [ ] projects !! 
