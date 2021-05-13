@@ -12,10 +12,10 @@
 - [x] work timeline
 - [x] host on netlify
 - [x] dark mode !! 
+- [x] scroll to top button
 - [ ] new domain
 - [ ] google analytics
 - [ ] lazy load assets
-- [ ] scroll to top button
 - [ ] on scroll animations
 - [ ] looping typewriter
 - [ ] resume redesign
