@@ -13,7 +13,7 @@ const NavContainer = styled.div`
         padding: 1rem 2rem;
     } 
 `
-    const NavWrapper = styled.div`
+const NavWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -33,14 +33,9 @@ export default function NavMenu() {
                 <ThemeToggler>
                     {({ theme, toggleTheme }) => (
                         <span
-                            className={theme === 'light' 
-                            ? 'dark-toggle moon'
-                            : 'dark-toggle sun'
-                            }
-                            onClick={() => 
-                            theme === 'light' ? toggleTheme('dark') : toggleTheme('light')}
+                            className={theme === 'light' ? 'dark-toggle moon' : 'dark-toggle sun'}
+                            onClick={() => theme === 'light' ? toggleTheme('dark') : toggleTheme('light')}
                         />
-                        
                     )}
                 </ThemeToggler>
                 <NavSection to='/' text='home' />

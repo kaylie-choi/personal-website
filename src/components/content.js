@@ -6,6 +6,8 @@ import About from "../components/about/about"
 // import Work from "../components/work/work"
 import Experience from "../components/work/experience"
 import SEO from './seo'
+import Scroll from '../components/scroll'
+
 
 const ContentWrapper = styled.div`
     scroll-behavior: smooth;
@@ -27,13 +29,14 @@ const ContentWrapper = styled.div`
 export default function Content() {
     return (
         <ContentWrapper>
-        <Intro/>
-          <SectionHeader headerText="About" id="about"/>
-          <About/>
-          <SectionHeader headerText="Work" id="work"/>
-          {/* <Work/> */}
-          <Experience/>
-          <SEO/>
+            <Intro/>
+            <SectionHeader headerText="About" id="about"/>
+            <About/>
+            <SectionHeader headerText="Work" id="work"/>
+            {/* <Work/> */}
+            <Experience/>
+            <SEO/>
+            <Scroll showBelow={250} />
         </ContentWrapper>
     )
 }
