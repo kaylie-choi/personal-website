@@ -10,9 +10,6 @@ const FooterContainer = styled.div`
 const FooterText = styled.p`
   font-size: 14px;
   text-align: center;
-  span {
-    cursor: pointer;
-  }
 `
 
 export default function Footer() {
@@ -30,7 +27,7 @@ export default function Footer() {
 
     function goodLuck(e){
       e.preventDefault();
-      console.log('your wish has been granted.');
+      console.log('your wish has been granted !');
     }
     
     return (
