@@ -8,7 +8,6 @@ module.exports = {
   siteMetadata: {
     title: `Kaylie Choi`,
     description: `Kaylie Choi's personal website.`,
-    image: "/src/assets/meta.jpg",
     twitterUsername: "@kayliechoi_",
     author: `Kaylie Choi`,
   },
