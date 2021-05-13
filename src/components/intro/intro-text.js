@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 import IntroSocials from './intro-socials'
 import tw from "twin.macro"
+import Sparkles from '../sparkles'
+
 
 
 const IntroTextContainer = styled.div`
@@ -36,7 +38,11 @@ export default function IntroText() {
     return (
         <IntroTextContainer>
             <IntroTextWrapper>
-                <IntroName>Kaylie Choi</IntroName>
+                <IntroName>
+                    <Sparkles colors={'rainbow'} >
+                        Kaylie Choi
+                    </Sparkles>
+                </IntroName>
                 <IntroHello>
                     Hi, I'm Kaylie! I'm a developer and engineering student
                     currently studying at the <Link to='https://uwaterloo.ca/'>
