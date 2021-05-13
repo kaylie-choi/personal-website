@@ -38,7 +38,7 @@ export default function NavMenu() {
                             : 'dark-toggle sun'
                             }
                             onClick={() => 
-                            theme === 'dark' ? toggleTheme('light') : toggleTheme('dark')}
+                            theme === 'light' ? toggleTheme('dark') : toggleTheme('light')}
                         />
                         
                     )}
