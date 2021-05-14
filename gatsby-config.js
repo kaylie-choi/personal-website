@@ -14,14 +14,15 @@ module.exports = {
     url: `https://www.kayliechoi.com`,
   },
   plugins: [
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-styled-components`,
-    `gatsby-plugin-image`,
-    `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-dark-mode`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-smoothscroll`,
+    `gatsby-plugin-styled-components`,
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {
