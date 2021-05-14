@@ -10,6 +10,7 @@ module.exports = {
     description: `Kaylie Choi's personal website.`,
     twitterUsername: "@kayliechoi_",
     author: `Kaylie Choi`,
+    siteUrl: `https://www.kayliechoi.com`,
   },
   plugins: [
     `gatsby-plugin-sass`,
@@ -20,6 +21,7 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-dark-mode`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {
