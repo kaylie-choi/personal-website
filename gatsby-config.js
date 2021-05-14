@@ -22,7 +22,6 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-smoothscroll`,
     `gatsby-plugin-dark-mode`,
-    `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-anchor-links",
       options: {
