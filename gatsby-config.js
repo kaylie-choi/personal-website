@@ -11,6 +11,7 @@ module.exports = {
     twitterUsername: "@kayliechoi_",
     author: `Kaylie Choi`,
     siteUrl: `https://www.kayliechoi.com`,
+    url: `https://www.kayliechoi.com`,
   },
   plugins: [
     `gatsby-plugin-sass`,
