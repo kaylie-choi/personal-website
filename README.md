@@ -4,7 +4,7 @@
 
 🔨 built with gatsby, styled components and a dash of scss
 
-### my [accountability] roadmap
+### goals
 - [x] components
 - [x] single page app
 - [x] responsive
