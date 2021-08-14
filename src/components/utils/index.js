@@ -1,3 +1,4 @@
+// used in sparkles component
 export const range = (start, end, step = 1) => {
     let output = [];
     if (typeof end === 'undefined') {
