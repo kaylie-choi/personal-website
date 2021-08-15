@@ -13,12 +13,13 @@
 - [x] work timeline
 - [x] host on netlify
 - [x] dark mode !! 
-- [x] scroll to top button
+- [x] scroll to top
 - [x] custom domain + ssl certif
 - [x] google analytics
 - [x] reveal on scroll animations
+- [x] skills
 - [ ] show more toggle for experience bullet points
-- [ ] skills
+- [ ] twitter card
 - [ ] projects !! 
 - [ ] preloader ??
 - [ ] resume redesign
