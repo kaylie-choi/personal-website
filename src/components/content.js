@@ -5,8 +5,9 @@ import Intro from "../components/intro/intro"
 import About from "../components/about/about"
 // import Work from "../components/work/work"
 import Experience from "../components/work/experience"
+import Skills from "../components/skills/skills"
 import SEO from './seo'
-import Scroll from '../components/scroll'
+import ScrollToTop from './scroll-to-top'
 
 
 const ContentWrapper = styled.div`
@@ -35,8 +36,10 @@ export default function Content() {
             <SectionHeader headerText="Work" id="work"/>
             {/* <Work/> */}
             <Experience/>
+            <SectionHeader headerText="Skills" id="skills"/>
+            <Skills/>
             <SEO/>
-            <Scroll showBelow={250} />
+            <ScrollToTop showBelow={250} />
         </ContentWrapper>
     )
 }

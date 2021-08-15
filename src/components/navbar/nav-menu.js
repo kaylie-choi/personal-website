@@ -3,6 +3,7 @@ import NavSection from './nav-section'
 import styled from 'styled-components'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
+
 const NavContainer = styled.div`
     background-color: rgba(99, 99, 99, 0.1);
     width: 100vw;
@@ -45,6 +46,7 @@ export default function NavMenu() {
                 <NavSection to='/' text='home' />
                 <NavSection to='#about' text='about'/>
                 <NavSection to='#work' text='work' />
+                <NavSection to='#skills' text='skills' />
                 <NavSection to='https://drive.google.com/file/d/1zdvyE9qg0QSJa_q8IBu9ggv-I9rEqndG/view?usp=sharing' text='resume'/>
             </NavWrapper>
         </NavContainer>

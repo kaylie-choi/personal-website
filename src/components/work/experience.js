@@ -10,13 +10,14 @@ import msamLogo from "../../assets/work-msam.png"
 import auraLogo from "../../assets/work-aura.png"
 import ovalLogo from "../../assets/work-oval.png"
 
+
 const ExperienceWrapper = styled.div`
-    padding: 0 2rem;
+    padding: 0 2rem 6rem;
     @media screen and (max-width: 1170px) {
-        padding: 0 1rem;
+        padding: 0 1rem 6rem;
     }
     @media screen and (max-width: 640px) {
-        padding: 0 0.5rem;
+        padding: 0 0.5rem 5rem;
     }
 `
 const LogoIcon = styled.img`
@@ -56,7 +57,6 @@ const ExperienceDesc = styled.ul`
         font-size: 13px;
     }
 `
-
 
 export default function Experience() {
     return (
