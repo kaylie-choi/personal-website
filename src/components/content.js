@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import SectionHeader from "../components/section-header"
 import Intro from "../components/intro/intro"
 import About from "../components/about/about"
-// import Work from "../components/work/work"
 import Experience from "../components/work/experience"
 import Skills from "../components/skills/skills"
 import SEO from './seo'
@@ -24,7 +23,7 @@ const ContentWrapper = styled.div`
     @media screen and (max-width: 640px) {
         padding: 1rem 3rem;
         font-size: 13px;
-    }  
+    }
 `
 
 export default function Content() {
@@ -33,8 +32,8 @@ export default function Content() {
             <Intro/>
             <SectionHeader headerText="About" id="about"/>
             <About/>
+            {/* <SectionHeader headerText="Projects" id="projects"/> */}
             <SectionHeader headerText="Work" id="work"/>
-            {/* <Work/> */}
             <Experience/>
             <SectionHeader headerText="Skills" id="skills"/>
             <Skills/>

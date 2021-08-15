@@ -12,6 +12,7 @@ module.exports = {
     author: `Kaylie Choi`,
     siteUrl: `https://www.kayliechoi.com`,
     url: `https://www.kayliechoi.com`,
+    image: "/favicon.ico"
   },
   plugins: [
     `gatsby-transformer-sharp`,
