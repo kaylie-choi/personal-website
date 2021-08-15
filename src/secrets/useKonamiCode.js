@@ -22,11 +22,11 @@ export const useKonamiCode = () => {
     const [success, setSuccess] = useState(false);
     const key = useInputEvent();
     
-    var modal = document.getElementById("secretModal");
-    var img = document.getElementById("secretImg");
-    var modalImg = document.getElementById("modalImg");
-    var secretMsg = document.getElementById("secretMsg");
-    var span = document.getElementById("modalClose");
+    // var modal = document.getElementById("secretModal");
+    // var img = document.getElementById("secretImg");
+    // var modalImg = document.getElementById("modalImg");
+    // var secretMsg = document.getElementById("secretMsg");
+    // var span = document.getElementById("modalClose");
 
     useEffect(() => {
         if (key == null) return;
@@ -47,15 +47,15 @@ export const useKonamiCode = () => {
             
             console.log('congrats!! you\'ve unlocked the surprise');
 
-            modal.style.display = "block";
-            modalImg.src = img.src;
-            secretMsg.innerHTML = img.alt;
+            // modal.style.display = "block";
+            // modalImg.src = img.src;
+            // secretMsg.innerHTML = img.alt;
 
-            span.onclick = function() { 
-                modal.style.display = "none";
-            }
+            // span.onclick = function() { 
+            //     modal.style.display = "none";
+            // }
             
-            // alert('bow chika bow wow');
+            alert('bow chika bow wow');
         }
 
     }, [key]);
