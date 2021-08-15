@@ -19,7 +19,7 @@ const ScrollButton = styled.button`
     }
 `
 
-const Scroll = ({ showBelow}) => {
+const ScrollToTop = ({showBelow}) => {
 
     const [show, setShow] = useState(showBelow ? false : true)
 
@@ -52,4 +52,4 @@ const Scroll = ({ showBelow}) => {
         </div>
     )
 }
-export default Scroll
+export default ScrollToTop

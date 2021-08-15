@@ -6,7 +6,6 @@ import tw from "twin.macro"
 import Sparkles from '../sparkles'
 
 
-
 const IntroTextContainer = styled.div`
     ${tw`flex justify-center sm:justify-start`}
 `
@@ -22,9 +21,7 @@ const IntroName = styled.p`
     width: 9.5ch;
     white-space: nowrap;
     overflow: hidden;
-    
 `
-
 const IntroHello = styled.p`
 `
 const IntroLink = styled.a`

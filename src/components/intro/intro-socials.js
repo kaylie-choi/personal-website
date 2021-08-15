@@ -6,7 +6,7 @@ import {
     FaGithub,
     FaLinkedin,
     FaEnvelope,
-  } from "react-icons/fa";
+} from "react-icons/fa";
 
 
 const IntroSocialsItem = styled.span`

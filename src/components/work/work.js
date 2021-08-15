@@ -1,3 +1,4 @@
+// not using this one
 import React from "react"
 import styled from 'styled-components'
 import tw from "twin.macro"
@@ -8,6 +9,7 @@ import msamLogo from "../../assets/work-msam.png"
 import auraLogo from "../../assets/work-aura.png"
 import ovalLogo from "../../assets/work-oval.png"
 
+
 const WorkWrapper = styled.div`
     padding: 1rem 0 3rem;
 `
@@ -15,7 +17,6 @@ const WorkItem = styled.div`
     padding-bottom: 2rem;
     ${tw`grid grid-cols-1 md:grid-cols-3 md:grid-rows-3 gap-3 md:gap-6`}
 `
-
 const WorkLeft = styled.p`
     ${tw`col-span-1 md:row-span-3`}
     border-right: 3px solid #97B08D; 
