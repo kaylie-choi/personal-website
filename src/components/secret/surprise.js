@@ -8,7 +8,7 @@ const SecretModal = styled.div`
     display: none;
     position: fixed;
     z-index: 99;
-    padding-top: 80px;
+    padding-top: 70px;
     left: 0;
     top: 0;
     width: 100%;
@@ -57,8 +57,6 @@ export default function Surprise() {
         <div>
             <SecretModal id="secretModal" style={{ display: konami ? 'block' : 'none' }}>
                 <ModalClose 
-                    id="modalClose" 
-                    class="close" 
                     onClick={() => {
                         document.getElementById("secretModal").style.display = "none";
                     }}

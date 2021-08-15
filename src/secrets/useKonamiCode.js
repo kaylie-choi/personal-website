@@ -21,12 +21,6 @@ export const useKonamiCode = () => {
     const [count, setCount] = useState(0);
     const [success, setSuccess] = useState(false);
     const key = useInputEvent();
-    
-    // var modal = document.getElementById("secretModal");
-    // var img = document.getElementById("secretImg");
-    // var modalImg = document.getElementById("modalImg");
-    // var secretMsg = document.getElementById("secretMsg");
-    // var span = document.getElementById("modalClose");
 
     useEffect(() => {
         if (key == null) return;
