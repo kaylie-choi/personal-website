@@ -39,7 +39,7 @@ export const useKonamiCode = () => {
         if (count + 1 === konamiCode.length) {
             setSuccess(true);
             
-            console.log('congrats!! you\'ve unlocked the surprise');
+            console.log('congrats!! you\'ve found a special surprise');
             // alert('bow chika bow wow');
         }
 
