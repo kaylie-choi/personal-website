@@ -1,11 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import Stitch from '../../assets/he-am-stitch.jpeg'
+import { useKonamiCode } from '../../secrets/useKonamiCode'
 
 
-const SecretImg = styled.img`
-    display: none;
-`
 const SecretModal = styled.div`
     display: none;
     position: fixed;
@@ -18,7 +16,7 @@ const SecretModal = styled.div`
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.8);
 `
-const ModalContent = styled.img`
+const SecretImg = styled.img`
     margin: auto;
     display: block;
     height: 80vh;
@@ -53,13 +51,25 @@ const ModalClose = styled.span`
 `
 
 export default function Surprise() {
+    const konami = useKonamiCode();
+
     return (
         <div>
-            <SecretImg id="secretImg" src={Stitch} alt="you're welcome :))"></SecretImg>
-            <SecretModal id="secretModal">
-                <ModalClose id="modalClose"class="close">&times;</ModalClose>
-                <ModalContent id="modalImg"></ModalContent>
-                <SecretMsg id="secretMsg"></SecretMsg>
+            <SecretModal id="secretModal" style={{ display: konami ? 'block' : 'none' }}>
+                <ModalClose 
+                    id="modalClose" 
+                    class="close" 
+                    onClick={() => {
+                        document.getElementById("secretModal").style.display = "none";
+                    }}
+                >
+                    &times;
+                </ModalClose>
+                <SecretImg 
+                    id="modalImg"
+                    src={Stitch}>
+                </SecretImg>
+                <SecretMsg id="secretMsg">you're welcome :))</SecretMsg>
             </SecretModal>
         </div>
     )

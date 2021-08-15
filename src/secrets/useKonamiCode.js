@@ -1,5 +1,5 @@
 // wrap use input event and compare against konami code
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import { useInputEvent } from "./useInputEvent";
 
 
@@ -46,16 +46,7 @@ export const useKonamiCode = () => {
             setSuccess(true);
             
             console.log('congrats!! you\'ve unlocked the surprise');
-
-            // modal.style.display = "block";
-            // modalImg.src = img.src;
-            // secretMsg.innerHTML = img.alt;
-
-            // span.onclick = function() { 
-            //     modal.style.display = "none";
-            // }
-            
-            alert('bow chika bow wow');
+            // alert('bow chika bow wow');
         }
 
     }, [key]);
