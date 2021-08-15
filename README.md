@@ -3,6 +3,7 @@
 🌱 a much needed, long overdue redesign/redevelopment of my personal website
 
 🔨 built with gatsby, styled components and a dash of scss
+<!-- also some tailwind in styled components for grid purposes -->
 
 ### goals
 - [x] components
@@ -15,7 +16,8 @@
 - [x] scroll to top button
 - [x] custom domain + ssl certif
 - [x] google analytics
-- [ ] on scroll animations
+- [x] reveal on scroll animations
+- [ ] show more toggle for experience bullet points
 - [ ] skills
 - [ ] projects !! 
 - [ ] preloader ??

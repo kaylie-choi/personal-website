@@ -14,7 +14,13 @@ const SectionHeaderText = styled.p`
 export default function SectionHeader(props) {
   return (
     <div>
-      <SectionHeaderText id={props.id}> 
+      <SectionHeaderText 
+        data-sal="slide-right"
+        data-sal-duration="800"
+        data-sal-delay="150"
+        data-sal-easing="ease-out-back"
+        id={props.id}
+      > 
         {props.headerText}&nbsp;.
       </SectionHeaderText>
     </div>
