@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import SectionHeader from "../components/section-header"
-import Intro from "../components/intro/intro"
-import About from "../components/about/about"
-import Experience from "../components/work/experience"
-import Skills from "../components/skills/skills"
+import SectionHeader from '../components/section-header'
+import Intro from '../components/intro/intro'
+import About from '../components/about/about'
+import Experience from '../components/work/experience'
+import Skills from '../components/skills/skills'
 import SEO from './seo'
 import ScrollToTop from './scroll-to-top'
+import Surprise from '../components/secret/surprise'
 
 
 const ContentWrapper = styled.div`
@@ -29,6 +30,7 @@ const ContentWrapper = styled.div`
 export default function Content() {
     return (
         <ContentWrapper>
+            <Surprise/>
             <Intro/>
             <SectionHeader headerText="About" id="about"/>
             <About/>

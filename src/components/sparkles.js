@@ -205,8 +205,8 @@ const SparkleSvg = styled.svg`
 
 const ChildWrapper = styled.strong`
   position: relative;
-  z-index: 2;
   font-weight: bold;
-`;
+  `;
+  //   z-index: 1;
 
 export default Sparkles;
