@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Stitch from '../../assets/he-am-stitch.jpeg'
-import { useKonamiCode } from '../../secrets/useKonamiCode'
+import { useKonamiCode } from '../hooks/useKonamiCode'
 
 
 const SecretModal = styled.div`
