@@ -20,6 +20,7 @@
 - [x] skills
 - [ ] show more toggle for experience bullet points
 - [ ] scroll snapping ?? <!-- will have to delay on scroll reveal? -->
+- [ ] templating
 - [ ] education + relevant courses
 - [ ] twitter card
 - [ ] projects !! 
