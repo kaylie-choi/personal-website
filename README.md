@@ -18,6 +18,7 @@
 - [x] google analytics
 - [x] reveal on scroll animations
 - [x] skills
+- [ ] skeleton loading
 - [ ] show more toggle for experience bullet points
 - [ ] scroll snapping ?? <!-- will have to delay on scroll reveal? -->
 - [ ] templating
