@@ -67,7 +67,7 @@ export default function Experience() {
             <VerticalTimelineElement icon={<LogoIcon src={pixleeLogo} alt='pixlee logo'/>}>
                 <ExperiencePosition>Full Stack SWE</ExperiencePosition>
                 <ExperienceCompany> ~ Pixlee TurnTo</ExperienceCompany>
-                <ExperienceDates>Jan 2021 - present</ExperienceDates>
+                <ExperienceDates>Jan 2021 - Aug 2021</ExperienceDates>
                 <ExperienceDesc style={{ marginLeft: '0'}}>
                     ~ Coming Soon ~
                 </ExperienceDesc>
