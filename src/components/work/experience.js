@@ -197,6 +197,24 @@ export default function Experience() {
                 </ExperienceDesc>
             </VerticalTimelineElement>
 
+            {/* <VerticalTimelineElement icon={<LogoIcon src={} alt='sbux logo'/>}>
+                <ExperiencePosition>Barista</ExperiencePosition>
+                <ExperienceCompany> ~ Starbucks Canada</ExperienceCompany>
+                <ExperienceDates>July 2017 - Aug 2017</ExperienceDates>
+                <ExperienceDesc>
+                    <li>
+                         Developed strong multitasking abilities and conflict resolution 
+                         skills to create an optimal customer experience while maintaining a 
+                         courteous and professional manner
+                    </li>
+                    <li>
+                        Quickly adapted to a fast-paced working environment to ensure 
+                        streamlined efficiency and finely honed attention to detail and accuracy 
+                        by managing currency and transactions at point of service till
+                    </li>
+                </ExperienceDesc>
+            </VerticalTimelineElement> */}
+
         </VerticalTimeline>
         </ExperienceWrapper>
     )
