@@ -91,11 +91,14 @@ export default function Experience() {
                         solutions for user stories and identified areas of improvement
                     </li>
                     {/* <li>
-                        Prototyped responsive, interactive websites using Marvel, Figma, HTML, 
+                        Rapidly prototyped responsive, interactive websites using Marvel, Figma, HTML, 
                         CSS/Sass, JavaScript and jQuery
                     </li>
                     <li>
                         Created wireframes and Visio user flows to demonstrate viability of proof of concepts
+                    </li> 
+                    <li>
+                        Researched new technologies to determine possible uses within Sun Life
                     </li> */}
                  </ExperienceDesc>
             </VerticalTimelineElement>
