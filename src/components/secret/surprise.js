@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Stitch from '../../assets/no-girlbossing.jpeg'
+import Stitch from '../../assets/he-am-stitch.jpeg'
 import { useKonamiCode } from '../hooks/useKonamiCode'
 
 
