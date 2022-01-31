@@ -5,7 +5,7 @@ import Footer from "../components/footer"
 
 
 export default function Home() {
-  console.log('hi there! thanks for checking out my site :) see if you can find all the easter eggs B)')
+  console.log('hi! i\'m so happy you\'re here :D thanks for checking out my site!!\np.s. see if you can find all the easter eggs B)')
 
   return (
       <div>
