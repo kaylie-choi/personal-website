@@ -6,6 +6,11 @@ import profileForet from '../../assets/profile-laForet.jpeg'
 import profileAstro from '../../assets/profile-astronaut.jpeg'
 import profileQueen from '../../assets/profile-queenSt.jpeg'
 import profileAllen from '../../assets/profile-allenGardens.jpeg'
+import profileBowen from '../../assets/profile-bowenLookout.jpeg'
+import profileHolly from '../../assets/profile-hollyburnMtn.jpg'
+import profileBarrier from '../../assets/profile-barrierViewpoint.jpg'
+import profileSea from '../../assets/profile-seaToSky.jpg'
+
 
 
 const IntroPicContainer = styled.div`
@@ -28,7 +33,7 @@ const Img = styled.img`
 `
 
 class ProfilePicture extends Component {
-  pictures = [profileQE, profileForet, profileAstro, profileQueen, profileAllen];
+  pictures = [profileQE, profileForet, profileAstro, profileQueen, profileAllen, profileBowen, profileHolly, profileBarrier, profileSea];
   state = {
     pictureIndex: null,
   };
