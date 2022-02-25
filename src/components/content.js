@@ -4,6 +4,7 @@ import SectionHeader from '../components/section-header'
 import Intro from '../components/intro/intro'
 import About from '../components/about/about'
 import Experience from '../components/work/experience'
+// import Education from '../components/school/education'
 import Skills from '../components/skills/skills'
 import SEO from './seo'
 import ScrollToTop from './scroll-to-top'
@@ -37,6 +38,8 @@ export default function Content() {
             {/* <SectionHeader headerText="Projects" id="projects"/> */}
             <SectionHeader headerText="Work" id="work"/>
             <Experience/>
+            {/* <SectionHeader headerText="Education" id="education"/> */}
+            {/* <Education/> */}
             <SectionHeader headerText="Skills" id="skills"/>
             <Skills/>
             <SEO/>
