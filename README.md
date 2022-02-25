@@ -5,7 +5,7 @@
 🔨 built with gatsby, styled components and a dash of scss
 <!-- also some tailwind in styled components for grid purposes -->
 
-### goals
+<!--### goals
 - [x] components
 - [x] single page app
 - [x] responsive
@@ -19,8 +19,8 @@
 - [x] reveal on scroll animations
 - [x] skills
 - [ ] skeleton loading
-- [ ] show more toggle for experience bullet points
-- [ ] scroll snapping ?? <!-- will have to delay on scroll reveal? -->
+- [ ] show more toggle for experience bullet points 
+- [ ] scroll snapping ?? <!-- will have to delay on scroll reveal? --> <!--
 - [ ] templating
 - [ ] education + relevant courses
 - [ ] twitter card
@@ -30,3 +30,4 @@
 - [ ] various themes
 - [ ] easter eggs 😎
 <!-- - [ ] looping typewriter -->
+
