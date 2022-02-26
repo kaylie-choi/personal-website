@@ -47,7 +47,7 @@ export default function NavMenu() {
                 <NavSection to='#about' text='about'/>
                 <NavSection to='#work' text='work' />
                 <NavSection to='#skills' text='skills' />
-                <NavSection to='https://drive.google.com/file/d/1zdvyE9qg0QSJa_q8IBu9ggv-I9rEqndG/view?usp=sharing' text='resume'/>
+                <NavSection to='https://drive.google.com/file/d/1q6MQ5b4LIqjmwT4EG3kbIrFJDrCW7DcY/view?usp=sharing' text='resume'/>
             </NavWrapper>
         </NavContainer>
     )

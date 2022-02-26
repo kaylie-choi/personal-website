@@ -35,7 +35,7 @@ export default function IntroSocials() {
             </IntroSocialsItem>
 
             <IntroSocialsItem>
-                <Link to='https://drive.google.com/file/d/1zdvyE9qg0QSJa_q8IBu9ggv-I9rEqndG/view?usp=sharing' target='_blank'>
+                <Link to='https://drive.google.com/file/d/1q6MQ5b4LIqjmwT4EG3kbIrFJDrCW7DcY/view?usp=sharing' target='_blank'>
                     <FaRegFileAlt/>
                 </Link>
             </IntroSocialsItem>
