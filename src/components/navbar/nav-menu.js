@@ -1,5 +1,6 @@
 import React from 'react'
 import NavSection from './nav-section'
+import NavLink from './nav-link'
 import styled from 'styled-components'
 import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
@@ -47,7 +48,7 @@ export default function NavMenu() {
                 <NavSection to='#about' text='about'/>
                 <NavSection to='#work' text='work' />
                 <NavSection to='#skills' text='skills' />
-                <NavSection to='https://drive.google.com/file/d/1q6MQ5b4LIqjmwT4EG3kbIrFJDrCW7DcY/view?usp=sharing' text='resume'/>
+                <NavLink href='https://drive.google.com/file/d/1q6MQ5b4LIqjmwT4EG3kbIrFJDrCW7DcY/view?usp=sharing' text='resume'/>
             </NavWrapper>
         </NavContainer>
     )
