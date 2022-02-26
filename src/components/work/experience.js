@@ -68,8 +68,29 @@ export default function Experience() {
                 <ExperiencePosition>Full Stack SWE</ExperiencePosition>
                 <ExperienceCompany> ~ Pixlee TurnTo</ExperienceCompany>
                 <ExperienceDates>Jan 2021 - Aug 2021</ExperienceDates>
-                <ExperienceDesc style={{ marginLeft: '0'}}>
-                    ~ Coming Soon ~
+                <ExperienceDesc>
+                    <li>
+                        Managed development, testing, review, and release of new dynamic product badge and 
+                        discount pricing features within photo galleries, increasing the engagement and 
+                        conversion of user generated content by as much as 105%
+                    </li>
+                    <li>
+                        Oversaw the front-end development of a complete restructure and redesign of how 
+                        Instagram Business Accounts are authenticated, managed, and displayed, 
+                        streamlining customer onboarding time
+                    </li>
+                    <li>
+                        Contributed to the development of a reusable web component library, 
+                        now used across multiple company projects and within various technologies
+                    </li>
+                    <li>
+                        Set up event tracking to monitor click events, using Keen to demonstrate how new features 
+                        impact user conversion metrics
+                    </li>
+                    <li>
+                        Communicated effectively with various areas of business, including customer success, product, 
+                        design, and engineering teams, to provide timely and efficient solutions based on customer feedback
+                    </li>
                 </ExperienceDesc>
             </VerticalTimelineElement>
 
@@ -79,27 +100,24 @@ export default function Experience() {
                 <ExperienceDates>Jan 2020 - Apr 2020</ExperienceDates>
                 <ExperienceDesc>
                     <li>
-                        Worked with a small team to develop voice features for the live 
-                        Sun Life Voice Skill using Node.js. Alexa Skills Kit and Azure Functions
+                        Worked within a small team to develop secure voice features for the live Sun Life 
+                        Voice Skill leveraging Node.js, Alexa Skills Kit, and Azure Functions
                     </li>
                     <li>
-                        Collaborated with multi-disciplinary teams to meet strict deadlines by 
-                        using the SCRUM Agile methodology, JIRA, BitBucket and SharePoint
+                        Participated in design thinking sessions to rapidly ideate and prototype responsive, 
+                        interactive web-based MVPs, using JavaScript and Bootstrap
                     </li>
                     <li>
-                        Followed the Design Thinking methodology to ideate and prototype innovative 
-                        solutions for user stories and identified areas of improvement
-                    </li>
-                    {/* <li>
-                        Rapidly prototyped responsive, interactive websites using Marvel, Figma, HTML, 
-                        CSS/Sass, JavaScript and jQuery
+                        Collaborated with multi-disciplinary teams to meet strict deadlines by using the Agile 
+                        Scrum methodology, with tracking, version control and documentation on JIRA, BitBucket and SharePoint
                     </li>
                     <li>
-                        Created wireframes and Visio user flows to demonstrate viability of proof of concepts
-                    </li> 
+                        Created Visio user flows and high-fidelity wireframes with Marvel/Figma to demonstrate viability 
+                        of proof of concepts to executive leadership
+                    </li>
                     <li>
-                        Researched new technologies to determine possible uses within Sun Life
-                    </li> */}
+                        Researched new technologies to determine possible use cases for identified areas of improvement
+                    </li>
                  </ExperienceDesc>
             </VerticalTimelineElement>
 
