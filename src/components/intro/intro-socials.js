@@ -41,7 +41,7 @@ export default function IntroSocials() {
             </IntroSocialsItem>
 
             <IntroSocialsItem>
-                <a href='mailto:kayliechoii@gmail.com'>
+                <a href='mailto:kayli3choi@gmail.com'>
                     <FaEnvelope/>
                 </a>
             </IntroSocialsItem>

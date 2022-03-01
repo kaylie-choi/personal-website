@@ -61,8 +61,8 @@ export default function About() {
                     <AboutLink>Linkedin</AboutLink>, 
                 </Link> check out my projects on <Link to='https://github.com/kaylie-choi' target='_blank'>
                     <AboutLink>Github</AboutLink>, 
-                </Link> or email to chat at <a href='mailto:kayliechoii@gmail.com'>
-                    <AboutLink>kayliechoii@gmail.com</AboutLink>. 
+                </Link> or email to chat at <a href='mailto:kayli3choi@gmail.com'>
+                    <AboutLink>kayli3choi@gmail.com</AboutLink>. 
                 </a>
             </AboutText>
         </AboutWrapper>
