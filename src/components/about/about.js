@@ -31,7 +31,7 @@ export default function About() {
                 passion for front-end development, design, and user experience. 
                 I’m a <Link to='https://uwaterloo.ca/nanotechnology/' target='_blank'>
                     <AboutBold>nanotechnology engineering</AboutBold>
-                </Link> student currently studying <i>[remotely]</i> at 
+                </Link> student currently studying at 
                 the University of Waterloo.
             </AboutText>
             <br/>
