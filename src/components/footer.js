@@ -43,7 +43,7 @@ export default function Footer() {
           </span>
 
           &nbsp;&nbsp;designed & built by&nbsp;
-          {data.site.siteMetadata.author} &copy;&nbsp;2021
+          {data.site.siteMetadata.author} &copy;&nbsp;2022
           
         </FooterText>
       </FooterContainer>

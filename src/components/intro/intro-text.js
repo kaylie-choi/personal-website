@@ -41,8 +41,8 @@ export default function IntroText() {
                     </Sparkles>
                 </IntroName>
                 <IntroHello>
-                    Hi, I'm Kaylie! I'm a developer and engineering student
-                    currently studying at the <Link to='https://uwaterloo.ca/'>
+                    Hi, I'm Kaylie! I'm a developer and recent engineering graduate
+                    of the <Link to='https://uwaterloo.ca/'>
                         <IntroLink>University of Waterloo</IntroLink>
                     </Link>.
                     <br/>

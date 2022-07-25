@@ -29,9 +29,9 @@ export default function Education() {
             >
                 Hello! I’m Kaylie Choi (she/her), a developer with a 
                 passion for front-end development, design, and user experience. 
-                I’m a <Link to='https://uwaterloo.ca/nanotechnology/' target='_blank'>
-                    <AboutBold>nanotechnology engineering</AboutBold>
-                </Link> student currently studying <i>[remotely]</i> at 
+                I recently graduated with distinction from the <Link to='https://uwaterloo.ca/nanotechnology/' target='_blank'>
+                    <AboutBold>nanotechnology engineering program</AboutBold>
+                </Link>at 
                 the University of Waterloo.
             </AboutText>
         </EduWrapper>
