@@ -29,10 +29,11 @@ export default function About() {
             >
                 Hello! I’m Kaylie Choi (she/her), a developer with a 
                 passion for front-end development, design, and user experience. 
-                I’m a <Link to='https://uwaterloo.ca/nanotechnology/' target='_blank'>
-                    <AboutBold>nanotechnology engineering</AboutBold>
-                </Link> student currently studying at 
-                the University of Waterloo.
+                I recently graduated with distinction in 
+                <Link to='https://uwaterloo.ca/nanotechnology/' target='_blank'>
+                    <AboutBold>Honors Nanotechnology Engineering </AboutBold>
+                </Link>
+                from the University of Waterloo.
             </AboutText>
             <br/>
             <AboutText
