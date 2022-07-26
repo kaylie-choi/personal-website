@@ -29,9 +29,9 @@ export default function About() {
             >
                 Hello! I’m Kaylie Choi (she/her), a developer with a 
                 passion for front-end development, design, and user experience. 
-                I recently graduated with distinction in 
+                I recently graduated with distinction in
                 <Link to='https://uwaterloo.ca/nanotechnology/' target='_blank'>
-                    <AboutBold>Honors Nanotechnology Engineering </AboutBold>
+                    <AboutBold> Honors Nanotechnology Engineering </AboutBold>
                 </Link>
                 from the University of Waterloo.
             </AboutText>
