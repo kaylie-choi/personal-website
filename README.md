@@ -18,16 +18,16 @@
 - [x] google analytics
 - [x] reveal on scroll animations
 - [x] skills
+- [x] resume redesign
+- [x] easter eggs 😎
+- [x] show more toggle for experience bullet points 
+- [ ] scroll snapping ?? , will have to delay on scroll reveal? 
 - [ ] skeleton loading
-- [ ] show more toggle for experience bullet points 
-- [ ] scroll snapping ?? <!-- will have to delay on scroll reveal? --> <!--
-- [ ] templating
+- [ ] templating w json ?
 - [ ] education + relevant courses
-- [ ] twitter card
 - [ ] projects !! 
+- [ ] twitter card
 - [ ] preloader ??
-- [ ] resume redesign
 - [ ] various themes
-- [ ] easter eggs 😎
-<!-- - [ ] looping typewriter -->
+- [ ] looping typewriter -->
 
