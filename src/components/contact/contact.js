@@ -56,9 +56,6 @@ const FormText = styled.textarea`
   ::placeholder {
     color: #97B08D;
   }
-  :focus {
-    border: red;
-  }
 `
 
 const ContactSubmit = styled.button`
@@ -85,8 +82,8 @@ export default function Contact() {
             name="Contact Form" 
             method="POST" 
             data-netlify="true"
-            action="/"
           >
+            {/* action="/" */}
             <input type="hidden" name="form-name" value="Contact Form" />
 
               <ContactLeftWrapper>
