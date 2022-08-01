@@ -18,7 +18,7 @@ const IntroName = styled.p`
     font-size: 44px;
     font-weight: 700;
     margin: 15px 0;
-    width: 9.5ch;
+    width: 10ch;
     white-space: nowrap;
     overflow: hidden;
 `

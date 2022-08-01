@@ -66,7 +66,7 @@ export default function Experience() {
         >
             <VerticalTimelineElement icon={<LogoIcon src={pixleeLogo} alt='pixlee logo'/>}>
                 <ExperiencePosition>Full Stack SWE</ExperiencePosition>
-                <ExperienceCompany> ~ Pixlee TurnTo</ExperienceCompany>
+                <ExperienceCompany> @ Pixlee TurnTo</ExperienceCompany>
                 <ExperienceDates>Jan 2021 - Aug 2021</ExperienceDates>
                 <ExperienceDesc>
                     <li>
@@ -96,7 +96,7 @@ export default function Experience() {
 
             <VerticalTimelineElement icon={<LogoIcon src={sunLifeLogo} alt='slf logo'/>}>
                 <ExperiencePosition>Innovation Web Application Developer</ExperiencePosition>
-                <ExperienceCompany> ~ Sun Life Financial</ExperienceCompany>
+                <ExperienceCompany> @ Sun Life Financial</ExperienceCompany>
                 <ExperienceDates>Jan 2020 - Apr 2020</ExperienceDates>
                 <ExperienceDesc>
                     <li>
@@ -123,7 +123,7 @@ export default function Experience() {
 
             <VerticalTimelineElement icon={<LogoIcon src={cibcLogo} alt='cibc logo'/>}>
                 <ExperiencePosition>Application Developer</ExperiencePosition>
-                <ExperienceCompany> ~ CIBC Capital Markets</ExperienceCompany>
+                <ExperienceCompany> @ CIBC Capital Markets</ExperienceCompany>
                 <ExperienceDates>Sept 2019 - Dec 2019</ExperienceDates>
                 <ExperienceDesc>
                     <li>
@@ -150,7 +150,7 @@ export default function Experience() {
 
             <VerticalTimelineElement icon={<LogoIcon src={msamLogo} alt='msam logo'/>}>
                 <ExperiencePosition>Additive Manufacturing Material Developer</ExperiencePosition>
-                <ExperienceCompany> ~ MSAM Lab</ExperienceCompany>
+                <ExperienceCompany> @ MSAM Lab</ExperienceCompany>
                 <ExperienceDates>May 2018 - Aug 2018</ExperienceDates>
                 <ExperienceDesc>
                     <li>
@@ -179,7 +179,7 @@ export default function Experience() {
 
             <VerticalTimelineElement icon={<LogoIcon src={auraLogo} alt='aura logo'/>}>
                 <ExperiencePosition>Rhythmic Gymnastics Coach</ExperiencePosition>
-                <ExperienceCompany> ~ Aura Rhythmics</ExperienceCompany>
+                <ExperienceCompany> @ Aura Rhythmics</ExperienceCompany>
                 <ExperienceDates>2013 - 2019</ExperienceDates>
                 <ExperienceDesc>
                     <li>
@@ -200,7 +200,7 @@ export default function Experience() {
 
             <VerticalTimelineElement icon={<LogoIcon src={ovalLogo} alt='oval logo'/>}>
                 <ExperiencePosition>Program Leader</ExperiencePosition>
-                <ExperienceCompany> ~ Richmond Olympic Oval</ExperienceCompany>
+                <ExperienceCompany> @ Richmond Olympic Oval</ExperienceCompany>
                 <ExperienceDates>July 2017 - Aug 2017 | March 2017</ExperienceDates>
                 <ExperienceDesc>
                     <li>

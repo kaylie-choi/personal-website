@@ -3,8 +3,7 @@ import styled from 'styled-components'
 
 
 const SkillsWrapper = styled.div`
-    padding: 1rem 0;
-    margin: 0 -1.5rem 0 0;
+    padding: 1rem 0 6rem;
 `
 const SkillsSection = styled.p`
     margin: 0.3rem 0;
@@ -54,7 +53,7 @@ export default function Skills() {
             </SkillsSection>
             <SkillsSection>
                 🗂
-                <SkillsBold>Management &nbsp;~ &nbsp;</SkillsBold>
+                <SkillsBold>Management &nbsp;~</SkillsBold>
                 <SkillsList>
                     Jira, Confluence, Agile Methodology, Scrum, Notion
                 </SkillsList>
