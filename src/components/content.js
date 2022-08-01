@@ -6,6 +6,7 @@ import About from '../components/about/about'
 import Experience from '../components/work/experience'
 // import Education from '../components/school/education'
 import Skills from '../components/skills/skills'
+import Contact from '../components/contact/contact'
 import SEO from './seo'
 import ScrollToTop from './scroll-to-top'
 import Surprise from '../components/secret/surprise'
@@ -42,6 +43,8 @@ export default function Content() {
             {/* <Education/> */}
             <SectionHeader headerText="Skills" id="skills"/>
             <Skills/>
+            <SectionHeader headerText="Contact" id="contact"/>
+            <Contact/>
             <SEO/>
             <ScrollToTop showBelow={250} />
         </ContentWrapper>
