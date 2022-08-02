@@ -1,8 +1,8 @@
 import React from 'react';
 import styled, {keyframes} from 'styled-components';
 
-import {generateId, random, range, sample} from './utils';
-import {useIsOnscreen, usePrefersReducedMotion, useRandomInterval} from './hooks';
+import {generateId, random, range, sample} from '../utils';
+import {useIsOnscreen, usePrefersReducedMotion, useRandomInterval} from '../hooks';
 
 // adapted from https://github.com/chadmorrow/sparkles
 

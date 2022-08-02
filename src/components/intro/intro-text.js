@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import styled from 'styled-components'
 import IntroSocials from './intro-socials'
 import tw from "twin.macro"
-import Sparkles from '../sparkles'
+import Sparkles from '../secret/sparkles'
 
 
 const IntroTextContainer = styled.div`
