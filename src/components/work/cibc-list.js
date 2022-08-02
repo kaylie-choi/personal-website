@@ -14,7 +14,12 @@ const ExperienceDesc = styled.ul`
         font-size: 13px;
     }
 `
-
+const CibcCollapse = styled.a`
+    color: #97B08D;
+    float: right;
+    font-weight: 600;
+    cursor: pointer;
+`
 class CibcList extends React.Component {
   constructor() {
     super()
@@ -48,14 +53,14 @@ class CibcList extends React.Component {
             {this.state.cibc.slice(0, this.state.itemsToShow).map((cibc, i) => 
             <li key={i}>{cibc.desc}</li>
             )}
-          <a className="btn btn-primary" onClick={this.showMore}>
+          <CibcCollapse onClick={this.showMore}>
             {this.state.expanded ? (
               <span>- Show less</span>
             ) : (
               <span>+ Show more</span>
             )
             }
-          </a>
+          </CibcCollapse>
       </ExperienceDesc>
     )
   }

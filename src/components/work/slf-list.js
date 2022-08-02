@@ -8,12 +8,15 @@ const ExperienceDesc = styled.ul`
     margin-top: 0.75rem;
     margin-left: 1rem;
     font-size: 14px;
-    a {
-        font-weight: 600;
-    }
     @media screen and (max-width: 640px) {
         font-size: 13px;
     }
+`
+const SLFCollapse = styled.a`
+    color: #97B08D;
+    float: right;
+    font-weight: 600;
+    cursor: pointer;
 `
 
 class SLFList extends React.Component {
@@ -49,14 +52,14 @@ class SLFList extends React.Component {
             {this.state.slf.slice(0, this.state.itemsToShow).map((slf, i) => 
             <li key={i}>{slf.desc}</li>
             )}
-          <a className="btn btn-primary" onClick={this.showMore}>
+          <SLFCollapse onClick={this.showMore}>
             {this.state.expanded ? (
               <span>- Show less</span>
             ) : (
               <span>+ Show more</span>
             )
             }
-          </a>
+          </SLFCollapse>
       </ExperienceDesc>
     )
   }

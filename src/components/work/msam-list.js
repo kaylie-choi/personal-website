@@ -13,6 +13,12 @@ const ExperienceDesc = styled.ul`
         font-size: 13px;
     }
 `
+const MsamCollapse = styled.a`
+    color: #97B08D;
+    float: right;
+    font-weight: 600;
+    cursor: pointer;
+`
 
 class MsamList extends React.Component {
   constructor() {
@@ -45,14 +51,14 @@ class MsamList extends React.Component {
             {this.state.msam.slice(0, this.state.itemsToShow).map((msam, i) => 
             <li key={i}>{msam.desc}</li>
             )}
-          <a className="btn btn-primary" onClick={this.showMore}>
+          <MsamCollapse onClick={this.showMore}>
             {this.state.expanded ? (
               <span>- Show less</span>
             ) : (
               <span>+ Show more</span>
             )
             }
-          </a>
+          </MsamCollapse>
       </ExperienceDesc>
     )
   }
