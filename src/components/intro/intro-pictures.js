@@ -4,12 +4,12 @@ import tw from "twin.macro"
 import profileQE from '../../assets/profile-qePark.jpeg'
 import profileForet from '../../assets/profile-laForet.jpeg'
 import profileAstro from '../../assets/profile-astronaut.jpeg'
+import profileBowen from '../../assets/profile-bowenLookout.jpeg'
+import profileSea from '../../assets/profile-seaToSky.jpg'
 // import profileQueen from '../../assets/profile-queenSt.jpeg'
 // import profileAllen from '../../assets/profile-allenGardens.jpeg'
-import profileBowen from '../../assets/profile-bowenLookout.jpeg'
 // import profileHolly from '../../assets/profile-hollyburnMtn.jpg'
 // import profileBarrier from '../../assets/profile-barrierViewpoint.jpg'
-import profileSea from '../../assets/profile-seaToSky.jpg'
 
 
 
