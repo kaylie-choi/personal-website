@@ -82,8 +82,8 @@ export default function Contact() {
             name="Contact Form" 
             method="POST" 
             data-netlify="true"
+            action="/success"
           >
-            {/* action="/" */}
             <input type="hidden" name="form-name" value="Contact Form" />
 
               <ContactLeftWrapper>
