@@ -7,7 +7,11 @@ import tw from "twin.macro"
 const ContactWrapper = styled.div`
   padding: 1rem 0 6rem;
 `
+const ContactDesc = styled.span`
+  font-weight: 600; 
+`
 const ContactForm = styled.form`
+  padding-top: 1rem;
   ${tw`grid grid-cols-1 md:grid-cols-2`}    
 `
 const ContactLeftWrapper = styled.div`
@@ -24,7 +28,7 @@ const FormLabel = styled.label`
   margin: 0 0 10px;
 `
 const FormInput = styled.input`
-  border: 2px solid #97B08D;
+  border: 1.5px solid #97B08D;
   border-radius: 4px;
   background-color: rgba(99, 99, 99, 0);
   width: 27vw;
@@ -41,7 +45,7 @@ const FormInput = styled.input`
   }
 `
 const FormText = styled.textarea`
-  border: 2px solid #97B08D;
+  border: 1.5px solid #97B08D;
   border-radius: 4px;
   background-color: rgba(99, 99, 99, 0);
   width: 27vw;
@@ -57,7 +61,6 @@ const FormText = styled.textarea`
     color: #97B08D;
   }
 `
-
 const ContactSubmit = styled.button`
   background-color: #97B08D;
   border: 2px solid #97B08D;
@@ -78,6 +81,7 @@ export default function Contact() {
           data-sal-delay="150"
           data-sal-easing="ease-out-back"
         >
+          <ContactDesc>I'd love to hear from you - let's get in touch! </ContactDesc>
           <ContactForm 
             name="Contact Form" 
             method="POST" 
@@ -85,7 +89,6 @@ export default function Contact() {
             action="/success"
           >
             <input type="hidden" name="form-name" value="Contact Form" />
-
               <ContactLeftWrapper>
 
                 <FormPair>

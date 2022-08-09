@@ -21,6 +21,8 @@
 - [x] resume redesign
 - [x] easter eggs 😎
 - [x] show more toggle for experience bullet points 
+- [x] contact form
+- [ ] tags on experiences/projects for tech stack, intention
 - [ ] scroll snapping ?? , will have to delay on scroll reveal? 
 - [ ] skeleton loading
 - [ ] templating w json ?
