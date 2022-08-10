@@ -29,6 +29,7 @@ const SuccessLink = styled.a`
 export default function Content() {
     return (
         <div>
+            <SEO title="Kaylie Choi - Contact Form Success Page"/>
             <NavMenu/>
             <SuccessWrapper>
                 <SuccessHeader>
@@ -47,7 +48,6 @@ export default function Content() {
                     </Link>
                 </SuccessLink>
             </SuccessWrapper>
-            <SEO title="Kaylie Choi - Contact Form Success Page"/>
             <Footer/>
         </div>
     )

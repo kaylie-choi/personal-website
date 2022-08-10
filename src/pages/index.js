@@ -10,10 +10,10 @@ export default function Home() {
 
   return (
       <div>
+        <SEO title="Kaylie Choi"/>
         <NavMenu/>
         <Content/>
         <Footer/>
-        <SEO title="Kaylie Choi"/>
       </div>
   )
 }

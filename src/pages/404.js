@@ -29,6 +29,7 @@ const FourLink = styled.a`
 export default function Content() {
     return (
         <div>
+            <SEO title="Kaylie Choi - 404 Page"/>
             <NavMenu/>
             <FourWrapper>
                 <FourHeader>
@@ -46,7 +47,6 @@ export default function Content() {
                     </Link>
                 </FourLink>
             </FourWrapper>
-            <SEO title="Kaylie Choi - 404 Page"/>
             <Footer/>
         </div>
     )
