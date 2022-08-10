@@ -46,7 +46,7 @@ const ScrollToTop = ({showBelow}) => {
         <div>
             {show &&
                 <ScrollButton onClick={handleClick}>
-                    <FaChevronUp />
+                    <FaChevronUp title='up arrow to scroll back to top'/>
                 </ScrollButton>
             }
         </div>

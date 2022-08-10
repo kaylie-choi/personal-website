@@ -15,7 +15,7 @@ const NavContainer = styled.div`
         padding: 1rem 2rem;
     } 
 `
-const NavWrapper = styled.div`
+const NavWrapper = styled.ul`
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
