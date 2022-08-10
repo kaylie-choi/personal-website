@@ -51,7 +51,3 @@ export default function Content() {
         </div>
     )
 }
-
-export const Head = () => (
-    <SEO title="404 Page" />
-)
