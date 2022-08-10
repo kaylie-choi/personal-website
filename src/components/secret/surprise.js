@@ -65,7 +65,8 @@ export default function Surprise() {
                 </ModalClose>
                 <SecretImg 
                     id="modalImg"
-                    src={Stitch}>
+                    src={Stitch}
+                    alt="stitch surprise picture">
                 </SecretImg>
                 <SecretMsg id="secretMsg">you're welcome :))</SecretMsg>
             </SecretModal>
