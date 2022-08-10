@@ -14,7 +14,7 @@ const IntroTextWrapper = styled.div`
     width: 300px;
     ${tw`md:ml-6`}
 `
-const IntroName = styled.p`
+const IntroName = styled.h1`
     font-size: 44px;
     font-weight: 700;
     margin: 15px 0;
