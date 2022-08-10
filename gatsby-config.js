@@ -11,7 +11,7 @@ module.exports = {
     twitterUsername: "@kayliechoi_",
     author: `Kaylie Choi`,
     siteUrl: `https://www.kayliechoi.com`,
-    image: "/favicon.ico",
+    image: "/twitterimg.png",
     keywords: `kaylie choi, kaylie, choi, website, personal, developer, rhythmic gymnastics, canada`
   },
   plugins: [
