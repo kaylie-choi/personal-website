@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-const SectionHeaderText = styled.p`
+const SectionHeaderText = styled.h2`
   display: inline-block;
   padding-top: 1rem;
   font-size: 34px;
