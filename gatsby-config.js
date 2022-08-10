@@ -12,7 +12,7 @@ module.exports = {
     author: `Kaylie Choi`,
     siteUrl: `https://www.kayliechoi.com`,
     image: "/twitterimg.png",
-    keywords: `kaylie choi, kaylie, choi, website, personal, developer, rhythmic gymnastics, canada`
+    keywords: `kaylie choi, kaylie, choi, kayliechoi, website, personal, developer, rhythmic gymnastics, Nanotechnology Engineering, UWaterloo, University of Waterloo, canada`
   },
   plugins: [
     `gatsby-transformer-sharp`,

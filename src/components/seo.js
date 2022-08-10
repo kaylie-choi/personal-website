@@ -2,13 +2,15 @@ import React from "react"
 import { useSiteMetadata } from "../components/hooks/use-site-metadata"
 
 export const SEO = ({ title, description, pathname, children }) => {
-  const { title: defaultTitle, description: defaultDescription, image, siteUrl, twitterUsername } = useSiteMetadata()
+  const { title: defaultTitle, description: defaultDescription, image, siteUrl, twitterUsername, keywords, author } = useSiteMetadata()
 
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
     image: `${siteUrl}${image}`,
     url: `${siteUrl}${pathname || ``}`,
+    keywords,
+    author,
     twitterUsername,
   }
 
@@ -17,6 +19,9 @@ export const SEO = ({ title, description, pathname, children }) => {
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+      <meta name="keywords" content={seo.keywords} />
+      <meta name="author" content={seo.author} />
+
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:title" content={seo.title} />
       <meta name="twitter:url" content={seo.url} />
