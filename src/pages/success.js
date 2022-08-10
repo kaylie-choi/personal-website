@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from "gatsby"
 import NavMenu from "../components/navbar/nav-menu"
-import SEO from '../components/seo'
+import { SEO } from '../components/seo'
 import Footer from "../components/footer"
 
 
@@ -47,7 +47,7 @@ export default function Content() {
                     </Link>
                 </SuccessLink>
             </SuccessWrapper>
-            <SEO/>
+            <SEO title="Kaylie Choi - Contact Form Success Page"/>
             <Footer/>
         </div>
     )

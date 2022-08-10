@@ -2,6 +2,7 @@ import React from "react"
 import NavMenu from "../components/navbar/nav-menu"
 import Content from "../components/content"
 import Footer from "../components/footer"
+import { SEO } from "../components/seo"
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
         <NavMenu/>
         <Content/>
         <Footer/>
+        <SEO title="Kaylie Choi"/>
       </div>
   )
 }

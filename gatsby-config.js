@@ -7,18 +7,17 @@
 module.exports = {
   siteMetadata: {
     title: `Kaylie Choi`,
-    description: `Kaylie Choi's personal website.`,
+    description: `Hi, I'm Kaylie! Welcome to my personal website :)`,
     twitterUsername: "@kayliechoi_",
     author: `Kaylie Choi`,
     siteUrl: `https://www.kayliechoi.com`,
-    url: `https://www.kayliechoi.com`,
-    image: "/favicon.ico"
+    image: "/favicon.ico",
+    keywords: `kaylie choi, kaylie, choi, website, personal, developer, rhythmic gymnastics, canada`
   },
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-dark-mode`,
     `gatsby-plugin-image`,
-    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,

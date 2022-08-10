@@ -75,9 +75,9 @@ const ExperienceDesc = styled.ul`
 export default function Experience() {
     return (
         <ExperienceWrapper>
-            <ExperienceSub>For my full work experience, you can find my resume&nbsp;
+            <ExperienceSub>For my full work experience, check out&nbsp;
                 <Link to='https://drive.google.com/file/d/1q6MQ5b4LIqjmwT4EG3kbIrFJDrCW7DcY/view?usp=sharing' target='_blank'>
-                    <ExperienceLink>here</ExperienceLink>
+                    <ExperienceLink>my resume</ExperienceLink>
                 </Link>.
             </ExperienceSub>
             <VerticalTimeline layout={ '1-column-left' }

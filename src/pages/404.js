@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from "gatsby"
 import NavMenu from "../components/navbar/nav-menu"
-import SEO from '../components/seo'
+import { SEO } from '../components/seo'
 import Footer from "../components/footer"
 
 
@@ -46,8 +46,12 @@ export default function Content() {
                     </Link>
                 </FourLink>
             </FourWrapper>
-            <SEO/>
+            <SEO title="Kaylie Choi - 404 Page"/>
             <Footer/>
         </div>
     )
 }
+
+export const Head = () => (
+    <SEO title="404 Page" />
+)
