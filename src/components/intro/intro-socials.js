@@ -24,25 +24,25 @@ export default function IntroSocials() {
         <div>
             <IntroSocialsItem>
                 <Link to='https://github.com/kaylie-choi' target='_blank'>
-                    <FaGithub title='link to github profile'/>
+                    <FaGithub title='github'/>
                 </Link>
             </IntroSocialsItem>
 
             <IntroSocialsItem>
                 <Link to='https://www.linkedin.com/in/kaylie-choi/' target='_blank'>
-                    <FaLinkedin title='link to linkedIn profile'/>
+                    <FaLinkedin title='linkedIn'/>
                 </Link>
             </IntroSocialsItem>
 
             <IntroSocialsItem>
                 <Link to='https://drive.google.com/file/d/1q6MQ5b4LIqjmwT4EG3kbIrFJDrCW7DcY/view?usp=sharing' target='_blank'>
-                    <FaRegFileAlt title='link to resume'/>
+                    <FaRegFileAlt title='resume'/>
                 </Link>
             </IntroSocialsItem>
 
             <IntroSocialsItem>
                 <a href='mailto:kayli3choi@gmail.com'>
-                    <FaEnvelope title='link to send me an email'/>
+                    <FaEnvelope title='email'/>
                 </a>
             </IntroSocialsItem>
         </div>
