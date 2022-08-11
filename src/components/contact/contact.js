@@ -44,6 +44,9 @@ const FormInput = styled.input`
     color: #97B08D;
   }
 `
+const FormRequired = styled.span`
+  color: #7C9B6F; 
+`
 const FormText = styled.textarea`
   border: 1.5px solid #97B08D;
   border-radius: 4px;
@@ -92,17 +95,25 @@ export default function Contact() {
               <ContactLeftWrapper>
 
                 <FormPair>
-                  <FormLabel>Name</FormLabel>
+                  <FormLabel>Name&nbsp;
+                    <FormRequired>
+                      *
+                    </FormRequired>  
+                  </FormLabel>
                   <br/>
-                  <FormInput type="name" name="name" placeholder='Tim Nook'/>
+                  <FormInput type="name" name="name" placeholder='Tim Nook' required/>
                 </FormPair>
 
                 <br/>
 
                 <FormPair>
-                  <FormLabel>Email</FormLabel>
+                  <FormLabel>Email&nbsp;
+                    <FormRequired>
+                      *
+                    </FormRequired>  
+                  </FormLabel>
                   <br/>
-                  <FormInput type="email" name="email" placeholder='timnook@nookinc.com'/>
+                  <FormInput type="email" name="email" placeholder='timnook@nookinc.com' required/>
                 </FormPair>
 
               </ContactLeftWrapper> 
