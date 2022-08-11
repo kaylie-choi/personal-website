@@ -30,7 +30,7 @@ export const SEO = ({ title, description, pathname, children }) => {
       <meta property="og:title" content={seo.title} />
       <meta property="og:url" content={seo.url} />
       <meta property="og:description" content={seo.description} />
-      <meta property="og:image" content={seo.image} />  
+      <meta property="og:image" content="https://www.kayliechoi.com/twitterimg.png" />  
       <meta property="og:locale" content="en_CA" />  
   
       <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🌱</text></svg>" />
