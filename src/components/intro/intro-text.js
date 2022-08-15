@@ -16,12 +16,13 @@ const IntroTextWrapper = styled.div`
 `
 const IntroName = styled.h1`
     font-size: 44px;
-    font-weight: 700;
+    font-weight: 600;
     margin: 15px 0;
     width: 10ch;
     white-space: nowrap;
     overflow: hidden;
-`
+    font-family: "PT Serif";
+    `
 const IntroHello = styled.p`
 `
 const IntroLink = styled.a`

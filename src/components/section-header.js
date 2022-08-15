@@ -5,10 +5,11 @@ import styled from 'styled-components'
 const SectionHeaderText = styled.h2`
   display: inline-block;
   padding-top: 1rem;
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 700;
   border-bottom: 14px solid #97B08D;
   line-height: 7px;
+  font-family: "PT Serif";
 `
 
 export default function SectionHeader(props) {
