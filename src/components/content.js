@@ -33,16 +33,16 @@ export default function Content() {
         <ContentWrapper>
             <Surprise/>
             <Intro/>
-            <SectionHeader headerText="About" id="about"/>
+            <SectionHeader headerText="about" id="about"/>
             <About/>
             {/* <SectionHeader headerText="Projects" id="projects"/> */}
-            <SectionHeader headerText="Work" id="work"/>
+            <SectionHeader headerText="work" id="work"/>
             <Experience/>
             {/* <SectionHeader headerText="Education" id="education"/> */}
             {/* <Education/> */}
-            <SectionHeader headerText="Skills" id="skills"/>
+            <SectionHeader headerText="skills" id="skills"/>
             <Skills/>
-            <SectionHeader headerText="Contact" id="contact"/>
+            <SectionHeader headerText="contact" id="contact"/>
             <Contact/>
             <ScrollToTop showBelow={250} />
         </ContentWrapper>
