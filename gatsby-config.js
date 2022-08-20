@@ -54,5 +54,12 @@ module.exports = {
           exitEventName: 'sal:out', // Exit event name
       },
     },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `content`,
+        path: `${__dirname}/content`,
+      }
+    },
   ],
 }
