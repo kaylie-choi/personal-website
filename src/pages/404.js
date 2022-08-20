@@ -24,6 +24,9 @@ const FourLink = styled.a`
     text-decoration: underline;
     font-weight: 600;
     font-size: 1.25rem;
+    :hover {
+        color: #799170;
+    }
 `
 
 export default function Content() {

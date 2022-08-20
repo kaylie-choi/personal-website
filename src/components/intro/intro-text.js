@@ -30,6 +30,9 @@ const IntroLink = styled.a`
     color: #97B08D;
     text-decoration: underline;
     font-weight: 600;
+    :hover {
+        color: #799170;
+    }
 `
 
 export default function IntroText() {

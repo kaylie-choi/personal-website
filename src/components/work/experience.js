@@ -33,6 +33,9 @@ const ExperienceLink = styled.a`
     color: #97B08D;
     text-decoration: underline;
     font-weight: 600;
+    :hover {
+        color: #799170;
+    }
 `
 const LogoIcon = styled.img`
     border-radius: 50%;

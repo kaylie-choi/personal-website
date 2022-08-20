@@ -12,7 +12,6 @@ import profileSea from '../../assets/profile-seaToSky.jpg'
 // import profileBarrier from '../../assets/profile-barrierViewpoint.jpg'
 
 
-
 const IntroPicContainer = styled.div`
     margin-right: 0;
     ${tw`flex justify-center md:justify-end sm:mr-6`}

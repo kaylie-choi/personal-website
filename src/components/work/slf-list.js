@@ -17,6 +17,9 @@ const SLFCollapse = styled.a`
     float: right;
     font-weight: 600;
     cursor: pointer;
+    :hover {
+      color: #799170;
+    }
 `
 
 class SLFList extends React.Component {
