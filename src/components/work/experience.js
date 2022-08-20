@@ -41,7 +41,8 @@ const LogoIcon = styled.img`
     object-fit: cover;
     align-content: center;
 `
-const ExperiencePosition = styled.span`
+const ExperiencePosition = styled.h3`
+    display: inline;
     font-size: 17px;
     font-weight: 800;
     @media screen and (max-width: 640px) {
@@ -49,6 +50,7 @@ const ExperiencePosition = styled.span`
     }
 `
 const ExperienceCompany = styled.span`
+    display: inline;
     font-size: 16px;
     font-weight: 400;
     @media screen and (max-width: 640px) {
