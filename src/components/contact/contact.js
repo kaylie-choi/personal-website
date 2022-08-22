@@ -86,12 +86,15 @@ export default function Contact() {
         >
           <ContactDesc>I'd love to hear from you - let's get in touch! </ContactDesc>
           <ContactForm 
-            name="Contact Form" 
             method="POST" 
+            name="Contact Form" // corresponds to hidden form-name input
+            netlify-honeypot="bot-field" // corresponds to hidden bot-field input
             data-netlify="true"
             action="/success"
           >
             <input type="hidden" name="form-name" value="Contact Form" />
+            <input type="hidden" name="bot-field" />
+
               <ContactLeftWrapper>
 
                 <FormPair>
