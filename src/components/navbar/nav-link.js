@@ -4,24 +4,29 @@ import styled from 'styled-components'
 
 const NavItemLink = styled.a`
     position: relative;
-    display: inline-block;
+    z-index: 0;
     margin-left: 1rem;
-    text-decoration: none;
-    border-bottom: 5px solid #97B08D;
     line-height: 16px;
-    :hover::before, :active::before{
-        transform: scaleX(1);
-        transform-origin: bottom left;
-    }
-    ::before {
-        transform: scaleX(0);
-        transform-origin: bottom right;
+    top: 2px; 
+
+    ::after {
         content: " ";
         position: absolute;
-        top: 0; right: 0; bottom: 0; left: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
         background: #97B08D;
-        z-index: -1;
-        transition: transform .3s ease;
+        content: "";
+        opacity: 0;
+        transition: all 0.3s;
+        bottom: 0px;
+        transform: translateY(-10px);
+        margin-bottom: -3.5px;
+    }
+    
+    :hover::after {
+        opacity: 1;
+        transform: translateY(0px);
     }
 `
 
