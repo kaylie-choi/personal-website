@@ -17,16 +17,9 @@ import AuraList from "./aura-list";
 import OvalList from "./oval-list";
 
 const ExperienceWrapper = styled.div`
-    padding: 1rem 2rem 6rem;
-    @media screen and (max-width: 1170px) {
-        padding: 0 1rem 6rem;
-    }
-    @media screen and (max-width: 640px) {
-        padding: 0 0.5rem 5rem;
-    }
+    padding: 1rem 0 6rem;
 `
 const ExperienceSub = styled.span`
-    margin-left: -2rem;
 `
 const ExperienceLink = styled.a`
     display: inline;
