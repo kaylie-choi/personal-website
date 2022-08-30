@@ -3,23 +3,23 @@ import React from "react"
 import styled from 'styled-components'
 
 const ExperienceDesc = styled.ul`
-    list-style-type: disc;
-    list-style-position: outside;
-    margin-top: 0.75rem;
-    margin-left: 1rem;
-    font-size: 14px;
-    @media screen and (max-width: 640px) {
-        font-size: 13px;
-    }
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-top: 0.75rem;
+  margin-left: 1rem;
+  font-size: 14px;
+  @media screen and (max-width: 640px) {
+      font-size: 13px;
+  }
 `
 const SLFCollapse = styled.a`
-    color: #97B08D;
-    float: right;
-    font-weight: 600;
-    cursor: pointer;
-    :hover {
-      color: #799170;
-    }
+  color: #97B08D;
+  float: right;
+  font-weight: 600;
+  cursor: pointer;
+  :hover {
+    color: #799170;
+  }
 `
 
 class SLFList extends React.Component {
