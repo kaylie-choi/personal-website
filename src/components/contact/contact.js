@@ -74,6 +74,10 @@ const ContactSubmit = styled.button`
   display: inline-block;
   width: 55px;
   ${tw`inline-block flex flex-col items-center`}
+  :hover {
+    background-color: #799170;
+    border: 2px solid #799170;
+  }
 `
 
 export default function Contact() {
