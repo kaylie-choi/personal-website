@@ -25,7 +25,7 @@ export default function Projects()  {
         title="Shoppable Social UGC Widgets" 
         subtitle="Pixlee TurnTo"
         desc="Developing and releasing a new dynamic product badge and discount pricing features within photo galleries."
-        firstLink="./pixelFirst"
+        firstLink="https://kayliechoi.notion.site/Shoppable-Social-UGC-Widgets-2afc4b5ba59f4aa7bdb2601913c78986"
         firstIcon={<FaLink title='view case study'/>}
         firstLinkText="Case Study"
       >
@@ -38,13 +38,13 @@ export default function Projects()  {
         subtitle="Pixlee TurnTo"
         desc="Ideating and developing a rapid proof of concept to suggest recommended alternatives when products featured 
         in user generated content are out of stock."
-        firstLink="./recoFirst"
+        firstLink="https://kayliechoi.notion.site/Out-of-Stock-Product-Recommendations-9bd04a523444436eb74f0107e349bdce"
         firstIcon={<FaLink title='view case study'/>}
         firstLinkText="Case Study"
       >
       </ProjectCard>
 
-      <ProjectCard 
+      {/* <ProjectCard 
         img={pixelPaint}
         alt="MPC case study img"
         title="Website Redesign"
@@ -57,7 +57,7 @@ export default function Projects()  {
         secondIcon={<FaPalette title='view prototype'/> }
         secondLinkText="Prototype"
       >
-      </ProjectCard>
+      </ProjectCard> */}
 
       <ProjectCard 
         img={pixelPaint}
