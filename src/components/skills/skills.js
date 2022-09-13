@@ -25,35 +25,35 @@ export default function Skills() {
         >
             <SkillsSection>
                 🖥
-                <SkillsBold>Programming Languages &nbsp;~</SkillsBold>
+                <SkillsBold>Programming Languages &nbsp;—</SkillsBold>
                 <SkillsList>
                     JavaScript, Python, HTML/CSS, Ruby, Bash, SQL, GraphQL, MATLAB, C++
                 </SkillsList>
             </SkillsSection>
             <SkillsSection>
                 📚
-                <SkillsBold>Libraries & Frameworks &nbsp;~</SkillsBold>
+                <SkillsBold>Libraries & Frameworks &nbsp;—</SkillsBold>
                 <SkillsList>
                     ReactJS, jQuery, Backbone/Marionette, Ruby on Rails, Node.js, Bootstrap, Tailwind            
                 </SkillsList>
             </SkillsSection>
             <SkillsSection>
                 🎨 
-                <SkillsBold>Design &nbsp;~</SkillsBold>
+                <SkillsBold>Design &nbsp;—</SkillsBold>
                 <SkillsList>
                     Figma, Adobe XD, Invision, Marvel, Visio, LaTex
                 </SkillsList>
             </SkillsSection>
             <SkillsSection>
                 🛠
-                <SkillsBold>Tools & Technologies &nbsp;~</SkillsBold>
+                <SkillsBold>Tools & Technologies &nbsp;—</SkillsBold>
                 <SkillsList>
                     Git, npm, Gatsby, Heroku, Netlify, CircleCI, Sentry, Alexa Skills Kit, Azure, Docker
                 </SkillsList>
             </SkillsSection>
             <SkillsSection>
                 🗂
-                <SkillsBold>Management &nbsp;~</SkillsBold>
+                <SkillsBold>Management &nbsp;—</SkillsBold>
                 <SkillsList>
                     Jira, Confluence, Agile Methodology, Scrum, Notion
                 </SkillsList>

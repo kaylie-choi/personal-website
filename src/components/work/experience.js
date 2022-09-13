@@ -17,22 +17,18 @@ import AuraList from "./aura-list";
 import OvalList from "./oval-list";
 
 const ExperienceWrapper = styled.div`
-    padding: 1rem 2rem 6rem;
-    @media screen and (max-width: 1170px) {
-        padding: 0 1rem 6rem;
-    }
-    @media screen and (max-width: 640px) {
-        padding: 0 0.5rem 5rem;
-    }
+    padding: 1rem 0 6rem;
 `
 const ExperienceSub = styled.span`
-    margin-left: -2rem;
 `
 const ExperienceLink = styled.a`
     display: inline;
     color: #97B08D;
     text-decoration: underline;
     font-weight: 600;
+    :hover {
+        color: #799170;
+    }
 `
 const LogoIcon = styled.img`
     border-radius: 50%;
@@ -41,7 +37,8 @@ const LogoIcon = styled.img`
     object-fit: cover;
     align-content: center;
 `
-const ExperiencePosition = styled.span`
+const ExperiencePosition = styled.h3`
+    display: inline;
     font-size: 17px;
     font-weight: 800;
     @media screen and (max-width: 640px) {
@@ -49,6 +46,7 @@ const ExperiencePosition = styled.span`
     }
 `
 const ExperienceCompany = styled.span`
+    display: inline;
     font-size: 16px;
     font-weight: 400;
     @media screen and (max-width: 640px) {
