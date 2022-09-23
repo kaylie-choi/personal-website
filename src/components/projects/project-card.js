@@ -16,7 +16,7 @@ const CardContainer = styled.span`
   }
 `
 const CardImg = styled.img`
-  ${tw`object-cover w-full h-auto rounded-t-lg md:w-1/2 md:h-auto md:rounded-none md:rounded-l-lg`}
+  ${tw`object-cover w-full h-auto rounded-t-lg md:w-2/5 md:h-auto md:rounded-none md:rounded-l-lg`}
 `
 const CardText = styled.div`
   width: 100%;
@@ -37,12 +37,11 @@ const CardLinks = styled.span`
   font-size: 14px;
 `
 // background-color: ${props=>console.log(props)};
+// background-color: ${props => props.href ? "#97B08D" : "transparent"};
 const CardLink = styled.a`
-  background-color: ${props => props.href ? "#97B08D" : "transparent"};
-  color: white;
-  padding: 1px 6px;
-  border-radius: 5px;
+  color: #97B08D;
   display: inline-block;
+  font-weight: 800;
   margin-right: 15px;
   svg {
     margin-right: 8px; 
@@ -51,7 +50,7 @@ const CardLink = styled.a`
   }
   :hover {
     transition: 0.2s ease-in;
-    background-color: #799170;
+    color: #799170;
   }
 `
 
@@ -67,12 +66,12 @@ export default function ProjectCard(props)  {
           
           <CardLinks>
             <CardLink href={props.firstLink} target="_blank">
-              {props.firstIcon}
               {props.firstLinkText}
+              {props.firstIcon}
             </CardLink>
             <CardLink href={props.secondLink} target="_blank">
-              {props.secondIcon}
               {props.secondLinkText}
+              {props.secondIcon}
             </CardLink>
           </CardLinks>
 
