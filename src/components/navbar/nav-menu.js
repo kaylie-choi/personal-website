@@ -45,9 +45,9 @@ export default function NavMenu() {
                     )}
                 </ThemeToggler>
                 <NavSection to='/' text='home' />
-                <NavSection to='#about' text='about'/>
-                <NavSection to='#work' text='work' />
-                <NavSection to='#projects' text='projects' />
+                <NavSection to='/#about' text='about'/>
+                <NavSection to='/#work' text='work' />
+                <NavSection to='/#projects' text='projects' />
                 <NavLink href='https://drive.google.com/file/d/1q6MQ5b4LIqjmwT4EG3kbIrFJDrCW7DcY/view?usp=sharing' text='resume'/>
             </NavWrapper>
         </NavContainer>
