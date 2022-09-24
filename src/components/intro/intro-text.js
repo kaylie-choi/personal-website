@@ -22,7 +22,7 @@ const IntroName = styled.h1`
     white-space: nowrap;
     overflow: hidden;
     font-family: "PT Serif";
-    `
+`
 const IntroHello = styled.p`
 `
 const IntroLink = styled.a`
