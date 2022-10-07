@@ -4,7 +4,7 @@ import SectionHeader from '../components/section-header'
 import Intro from '../components/intro/intro'
 import About from '../components/about/about'
 import Experience from '../components/work/experience'
-import Projects from './projects/projects-container'
+import SelectedProjects from './projects/projects-container-selected'
 import Skills from '../components/skills/skills'
 import Contact from '../components/contact/contact'
 import ScrollToTop from './scroll-to-top'
@@ -38,7 +38,7 @@ export default function Content() {
             <SectionHeader headerText="work" id="work"/>
             <Experience/>
             <SectionHeader headerText="projects" id="projects"/>
-            <Projects/>
+            <SelectedProjects/>
             <SectionHeader headerText="skills" id="skills"/> 
             <Skills/>
             <SectionHeader headerText="contact" id="contact"/>
