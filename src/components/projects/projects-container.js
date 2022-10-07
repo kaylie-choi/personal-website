@@ -5,6 +5,7 @@ import pixelPaint from "../../assets/projects-pixelPaint.png"
 import shoppableGallery from "../../assets/projects-shoppableGallery.png"
 import productRecos from "../../assets/projects-productRecos.png"
 import syde542 from "../../assets/projects-syde542.png"
+import impactAlliance from "../../assets/projects-impactAlliance.png"
 import {
   FaLink, 
   FaLaptopCode,
@@ -90,6 +91,25 @@ export default function Projects() {
         secondLink="https://kaylie-choi.github.io/pixel-paint/"
         secondLinkText="Live Demo "
         secondIcon={<FaArrowRight title='view live demo'/>}
+      >
+      </ProjectCard>
+      <ProjectCard 
+        img={impactAlliance}
+        alt="sdg img"
+        title="Impact & Communications Team"
+        subtitle="SDG Impact Alliance Graphic Designer"
+        desc="Created content for SDG  Impact Alliance's social media channels, 
+              researching and designing for both informatice carousel posts and 
+              weekly engaging stories."
+        firstLink="https://www.instagram.com/p/CVsr-q3gy4u/"
+        firstLinkText="Instagram Post "
+        firstIcon={<FaArrowRight title='ig post'/> }
+        secondLink="https://www.instagram.com/p/CVstCfugVLV/"
+        secondLinkText="Instagram Post "
+        secondIcon={<FaArrowRight title='ig post 2'/>}
+        thirdLink="https://www.instagram.com/p/CWs-2e3girk/"
+        thirdLinkText="Instagram Post "
+        thirdIcon={<FaArrowRight title='ig post 3'/> }
       >
       </ProjectCard>
     </ProjectsWrapper>
