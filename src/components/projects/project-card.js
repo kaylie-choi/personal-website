@@ -73,6 +73,10 @@ export default function ProjectCard(props)  {
               {props.secondLinkText}
               {props.secondIcon}
             </CardLink>
+            <CardLink href={props.thirdLink} target="_blank">
+              {props.thirdLinkText}
+              {props.thirdIcon}
+            </CardLink>
           </CardLinks>
 
         </CardText>
