@@ -99,7 +99,7 @@ export default function Projects() {
         title="Impact & Communications Team"
         subtitle="SDG Impact Alliance Graphic Designer"
         desc="Created content for SDG  Impact Alliance's social media channels, 
-              researching and designing for both informatice carousel posts and 
+              researching and designing for both informative carousel posts and 
               weekly engaging stories."
         firstLink="https://www.instagram.com/p/CVsr-q3gy4u/"
         firstLinkText="Instagram Post "
