@@ -76,7 +76,7 @@ export default function Experience() {
             <ExperienceSub>For my full work experience, check out&nbsp;
                 <Link to='https://drive.google.com/file/d/1q6MQ5b4LIqjmwT4EG3kbIrFJDrCW7DcY/view?usp=sharing' target='_blank'>
                     <ExperienceLink>my resume</ExperienceLink>
-                </Link>.
+                </Link>
             </ExperienceSub>
             <VerticalTimeline layout={ '1-column-left' }
             className="vertical-timeline vertical-timeline-custom-line">
