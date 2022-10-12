@@ -22,7 +22,9 @@ export default function SectionHeader(props) {
         data-sal-easing="ease-out-back"
         id={props.id}
       > 
-        {props.headerText}&nbsp;.
+        <a href={props.href}>
+          {props.headerText}&nbsp;.
+        </a>
       </SectionHeaderText>
     </div>
   )
