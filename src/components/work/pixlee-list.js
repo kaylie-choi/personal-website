@@ -33,8 +33,12 @@ class PixleeList extends React.Component {
       { "index" : "3", "desc" : "Contributed to the development of a reusable web component library, now used across multiple company projects and within various technologies" },
       { "index" : "4", "desc" : "Set up event tracking to monitor click events, using Keen to demonstrate how new features impact user conversion metrics" },
       { "index" : "5", "desc" : "Communicated effectively with various areas of business, including customer success, product, design, and engineering teams, to provide timely and efficient solutions based on customer feedback" },
+      { "index" : "6", "desc" : "Created low stock badges displayed in photo galleries driven by product feed stock levels and a custom product threshold, improving add-to-cart and conversion rates based on scarcity" },
+      { "index" : "7", "desc" : "Implemented application-wide front-end error logging using Sentry to increase developer velocity, helping to diagnose, fix and optimize code performance" },
+      { "index" : "8", "desc" : "Resolved several backlogged front-end issues, following the company design system to maintain consistency for an optimized user experience" },
+      { "index" : "9", "desc" : "Coordinated and supervised the onboarding of two consecutive cohorts of incoming interns, scheduling introduction meetings and providing support to a new working environment" }
     ],
-      itemsToShow: 3,
+      itemsToShow: 4,
       expanded: false
     }
 
@@ -42,10 +46,10 @@ class PixleeList extends React.Component {
   }
   
   showMore() {
-    this.state.itemsToShow === 3 ? (
+    this.state.itemsToShow === 4 ? (
       this.setState({ itemsToShow: this.state.pixlee.length, expanded: true })
     ) : (
-      this.setState({ itemsToShow: 3, expanded: false })
+      this.setState({ itemsToShow: 4, expanded: false })
     )
   }
   
