@@ -39,7 +39,7 @@ export default function Projects() {
       >
       </ProjectCard>
 
-      <ProjectCard 
+      {/* <ProjectCard 
         img={shoppableGallery}
         alt="ptt badges img"
         title="Shoppable Social UGC Widgets" 
@@ -49,7 +49,7 @@ export default function Projects() {
         firstLinkText="Case Study "
         firstIcon={<FaArrowRight title='view case study'/>}
       >
-      </ProjectCard>
+      </ProjectCard> */}
 
       <ProjectCard 
         img={productRecos}
