@@ -2,7 +2,7 @@ import React from "react"
 import NavMenu from "../components/navbar/nav-menu"
 import Content from "../components/content"
 import Footer from "../components/footer"
-import { SEO } from "../components/seo"
+import { SeO } from "../components/seo"
 
 
 export default function Home() {
@@ -10,10 +10,13 @@ export default function Home() {
 
   return (
       <div>
-        <SEO title="Kaylie Choi"/>
         <NavMenu/>
         <Content/>
         <Footer/>
       </div>
   )
 }
+
+export const Head = () => (
+  <SeO title="Kaylie Choi"/>
+)
