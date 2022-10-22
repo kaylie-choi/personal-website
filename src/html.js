@@ -11,11 +11,8 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <meta name="description" content="Hi, I'm Kaylie! Welcome to my personal website :)" />
-        <meta name="author" content="Kaylie Choi" />
-        <meta name="keywords" content="Kaylie choi, Kaylie, Choi, kayliechoi, website, personal, developer, rhythmic gymnastics, Nanotechnology Engineering, UWaterloo, University of Waterloo, Vancouver, Canada" />
-        
         <meta name="google-site-verification" content="ds0M4LrwtEHwotqFrcRCSHYXla1PPP5OAmKunT6CoAo" />
+        <meta name="robots" content="index, follow" />
         <script src="https://kit.fontawesome.com/61240bb50e.js" crossOrigin="anonymous"></script>
 
         {props.headComponents}
