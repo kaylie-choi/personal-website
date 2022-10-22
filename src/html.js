@@ -14,9 +14,9 @@ export default function HTML(props) {
         <meta name="google-site-verification" content="ds0M4LrwtEHwotqFrcRCSHYXla1PPP5OAmKunT6CoAo" />
         <meta name="robots" content="index, follow" />
         
-        <script src="https://kit.fontawesome.com/61240bb50e.js" crossOrigin="anonymous"></script>
-
         {props.headComponents}
+
+        <script src="https://kit.fontawesome.com/61240bb50e.js" crossOrigin="anonymous"></script>
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
