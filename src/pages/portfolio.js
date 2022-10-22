@@ -5,7 +5,7 @@ import Sparkles from '../components/secret/sparkles'
 import Projects from '../components/projects/projects-container'
 import ScrollToTop from '../components/scroll-to-top'
 import Footer from "../components/footer"
-import { SEO } from '../components/seo'
+import { SeO } from '../components/seo'
 
 
 const PortfolioWrapper = styled.div`
@@ -50,7 +50,6 @@ const PortfolioHeader = styled.h2`
 export default function Content() {
     return (
         <div>
-            <SEO title="Kaylie Choi - Portfolio"/>
             <NavMenu/>
             <PortfolioName>
                 <Sparkles colors={'rainbow'} >
@@ -66,3 +65,7 @@ export default function Content() {
         </div>
     )
 }
+
+export const Head = () => (
+    <SeO title="Kaylie Choi - Portfolio"/>
+)

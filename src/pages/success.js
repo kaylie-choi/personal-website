@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from "gatsby"
 import NavMenu from "../components/navbar/nav-menu"
-import { SEO } from '../components/seo'
 import Footer from "../components/footer"
+import { SeO } from '../components/seo'
 
 
 const SuccessWrapper = styled.div`
@@ -29,7 +29,6 @@ const SuccessLink = styled.a`
 export default function Content() {
     return (
         <div>
-            <SEO title="Kaylie Choi - Contact Form Success Page"/>
             <NavMenu/>
             <SuccessWrapper>
                 <SuccessHeader>
@@ -52,3 +51,7 @@ export default function Content() {
         </div>
     )
 }
+
+export const Head = () => (
+    <SeO title="Kaylie Choi - Contact Form Success Page"/>
+)

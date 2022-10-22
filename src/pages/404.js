@@ -2,8 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from "gatsby"
 import NavMenu from "../components/navbar/nav-menu"
-import { SEO } from '../components/seo'
 import Footer from "../components/footer"
+import { SeO } from '../components/seo'
 
 
 const FourWrapper = styled.div`
@@ -32,7 +32,6 @@ const FourLink = styled.a`
 export default function Content() {
     return (
         <div>
-            <SEO title="Kaylie Choi - 404 Page"/>
             <NavMenu/>
             <FourWrapper>
                 <FourHeader>
@@ -54,3 +53,7 @@ export default function Content() {
         </div>
     )
 }
+
+export const Head = () => (
+    <SeO title="Kaylie Choi - 404 Page"/>
+)
