@@ -6,6 +6,8 @@ import shoppableGallery from "../../assets/projects-shoppableGallery.png"
 import productRecos from "../../assets/projects-productRecos.png"
 import syde542 from "../../assets/projects-syde542.png"
 import impactAlliance from "../../assets/projects-impactAlliance.png"
+import sudokuSolver from "../../assets/projects-sudokuSolver.png"
+
 import {
   FaLink, 
   FaLaptopCode,
@@ -94,6 +96,17 @@ export default function Projects() {
       >
       </ProjectCard>
       <ProjectCard 
+        img={sudokuSolver}
+        alt="sudoku solver img"
+        title="Sudoku Solver"
+        subtitle="Personal Project"
+        desc="A Python sudoku solver using the backtracking algorithm."
+        firstLink="https://github.com/kaylie-choi/sudoku-solver"
+        firstLinkText="View Source "
+        firstIcon={<FaArrowRight title='view source code'/> }
+      >
+      </ProjectCard>
+      {/* <ProjectCard 
         img={impactAlliance}
         alt="sdg img"
         title="Impact & Communications Team"
@@ -111,7 +124,7 @@ export default function Projects() {
         thirdLinkText="Instagram Post "
         thirdIcon={<FaArrowRight title='ig post 3'/> }
       >
-      </ProjectCard>
+      </ProjectCard> */}
     </ProjectsWrapper>
   )
 }

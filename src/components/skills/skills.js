@@ -27,7 +27,7 @@ export default function Skills() {
                 🖥
                 <SkillsBold>Programming Languages &nbsp;—</SkillsBold>
                 <SkillsList>
-                    JavaScript, Python, HTML/CSS, Ruby, Bash, SQL, GraphQL, MATLAB, C++
+                    JavaScript, Python, HTML/CSS, Ruby, Bash, SQL, GraphQL, MATLAB, C++, PHP
                 </SkillsList>
             </SkillsSection>
             <SkillsSection>
@@ -48,7 +48,7 @@ export default function Skills() {
                 🛠
                 <SkillsBold>Tools & Technologies &nbsp;—</SkillsBold>
                 <SkillsList>
-                    Git, npm, Gatsby, Heroku, Netlify, CircleCI, Sentry, Alexa Skills Kit, Azure, Docker
+                    Git, npm, Gatsby, Heroku, Netlify, CircleCI, Sentry, Alexa Skills Kit, Azure, Docker, WordPress
                 </SkillsList>
             </SkillsSection>
             <SkillsSection>
