@@ -106,7 +106,7 @@ export default function Projects() {
         firstIcon={<FaArrowRight title='view source code'/> }
       >
       </ProjectCard>
-      {/* <ProjectCard 
+      <ProjectCard 
         img={impactAlliance}
         alt="sdg img"
         title="Impact & Communications Team"
@@ -124,7 +124,7 @@ export default function Projects() {
         thirdLinkText="Instagram Post "
         thirdIcon={<FaArrowRight title='ig post 3'/> }
       >
-      </ProjectCard> */}
+      </ProjectCard>
     </ProjectsWrapper>
   )
 }

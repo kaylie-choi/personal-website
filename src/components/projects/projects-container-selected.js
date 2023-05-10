@@ -5,6 +5,8 @@ import pixelPaint from "../../assets/projects-pixelPaint.png"
 import shoppableGallery from "../../assets/projects-shoppableGallery.png"
 import productRecos from "../../assets/projects-productRecos.png"
 import syde542 from "../../assets/projects-syde542.png"
+import sudokuSolver from "../../assets/projects-sudokuSolver.png"
+
 import {
   FaArrowRight
 } from "react-icons/fa";
@@ -71,6 +73,18 @@ export default function SelectedProjects() {
         secondLink="https://kaylie-choi.github.io/pixel-paint/"
         secondLinkText="Live Demo "
         secondIcon={<FaArrowRight title='view live demo'/>}
+      >
+      </ProjectCard>
+      
+      <ProjectCard 
+        img={sudokuSolver}
+        alt="sudoku solver img"
+        title="Sudoku Solver"
+        subtitle="Personal Project"
+        desc="A Python sudoku solver using the backtracking algorithm."
+        firstLink="https://github.com/kaylie-choi/sudoku-solver"
+        firstLinkText="View Source "
+        firstIcon={<FaArrowRight title='view source code'/> }
       >
       </ProjectCard>
 

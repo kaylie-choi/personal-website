@@ -39,7 +39,7 @@ export default function Content() {
             <SectionHeader headerText="work" id="work"/>
             <Experience/>
             <SectionHeader headerText="projects" id="projects" href='/portfolio'/>
-            <Projects/>
+            <SelectedProjects/>
             <SectionHeader headerText="skills" id="skills"/> 
             <Skills/>
             <SectionHeader headerText="contact" id="contact"/>
